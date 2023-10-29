@@ -1454,3 +1454,99 @@ To https://github.com/Harijohnson/Ecom_Demo.git
 (my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo>   
 
 
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git commit -m "product landing page fully working page code "
+[main 3d6df88] product landing page fully working page code
+ 1 file changed, 21 insertions(+), 15 deletions(-)
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git push origin main
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 766 bytes | 766.00 KiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   6d5e80f..3d6df88  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git commit -m "logs for product landing page"                
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git push origin main
+Everything up-to-date
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git commit -m "logs for product landing page"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory        modified:   ../logs_of_terminal.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")     
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git push origin main
+Everything up-to-date
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../logs_of_terminal.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")     
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 29, 2023 - 21:26:56
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[29/Oct/2023 21:27:04] "GET / HTTP/1.1" 200 3764
+[29/Oct/2023 21:27:05] "GET /static/css/product_info.css HTTP/1.1" 304 0
+[29/Oct/2023 21:27:05] "GET /static/javascript/product_info.js HTTP/1.1" 304 0
+[29/Oct/2023 21:27:09] "GET / HTTP/1.1" 200 3764
+[29/Oct/2023 21:27:09] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:27:09] "GET /static/javascript/product_info.js HTTP/1.1" 200 1026
+[29/Oct/2023 21:27:09] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:27:09] "GET /static/css/base_style.css HTTP/1.1" 200 1957
+[29/Oct/2023 21:27:09] "GET /static/images/bg.jpg HTTP/1.1" 200 120537
+[29/Oct/2023 21:27:09] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 21:27:15] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:27:15] "GET /static/css/base_style.css HTTP/1.1" 304 0
+[29/Oct/2023 21:27:19] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:27:19] "GET /static/css/base_style.css HTTP/1.1" 304 0
+[29/Oct/2023 21:27:20] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:27:20] "GET /static/css/base_style.css HTTP/1.1" 200 1957
+[29/Oct/2023 21:27:20] "GET /static/javascript/product_info.js HTTP/1.1" 200 1026
+[29/Oct/2023 21:27:20] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:27:20] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:27:20] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:27:20] "GET /static/images/bg.jpg HTTP/1.1" 200 120537
+[29/Oct/2023 21:27:21] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 21:27:55] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:27:55] "GET /static/css/base_style.css HTTP/1.1" 200 1957
+[29/Oct/2023 21:27:55] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:27:55] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:27:55] "GET /static/css/product_info.css HTTP/1.1" 200 3425
+[29/Oct/2023 21:27:55] "GET /static/javascript/product_info.js HTTP/1.1" 200 1026
+[29/Oct/2023 21:27:55] "GET /static/images/bg.jpg HTTP/1.1" 200 120537
+[29/Oct/2023 21:27:55] "GET /static/images/fv.png HTTP/1.1" 200 5856
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo>
