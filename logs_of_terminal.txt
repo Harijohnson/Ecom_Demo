@@ -1,0 +1,928 @@
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/check.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/completion.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/configuration.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/debug.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/download.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/freeze.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/hash.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/help.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/index.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/inspect.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/install.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/list.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/search.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/show.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/uninstall.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/commands/wheel.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/configuration.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/distributions/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/distributions/base.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/distributions/installed.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/distributions/sdist.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/distributions/wheel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/exceptions.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/index/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/index/collector.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/index/package_finder.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/index/sources.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/locations/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/locations/_distutils.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/locations/_sysconfig.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/locations/base.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/main.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/metadata/__init__.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/metadata/_json.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/metadata/base.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/metadata/importlib/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/metadata/importlib/_compat.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/metadata/importlib/_dists.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/metadata/importlib/_envs.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/metadata/pkg_resources.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/__init__.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/candidate.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/direct_url.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/format_control.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/index.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/installation_report.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/link.py', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/scheme.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/search_scope.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/selection_prefs.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/target_python.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/models/wheel.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/network/__init__.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/network/auth.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/network/cache.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/network/download.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/network/lazy_wheel.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/network/session.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/network/utils.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/network/xmlrpc.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/build/build_tracker.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/build/metadata.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/build/metadata_editable.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/build/metadata_legacy.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/build/wheel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/build/wheel_editable.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/build/wheel_legacy.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/check.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/freeze.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/install/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/install/editable_legacy.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/install/legacy.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/install/wheel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/operations/prepare.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/pyproject.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/req/__init__.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/req/constructors.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/req/req_file.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/req/req_install.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/req/req_set.py', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/req/req_uninstall.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/resolution/base.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/resolution/legacy/resolver.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/resolution/resolvelib/base.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/resolution/resolvelib/candidates.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/resolution/resolvelib/factory.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/resolution/resolvelib/provider.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/resolution/resolvelib/reporter.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/resolution/resolvelib/requirements.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/resolution/resolvelib/resolver.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/self_outdated_check.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/_log.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/appdirs.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/compat.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/compatibility_tags.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/datetime.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/deprecation.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/direct_url_helpers.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/distutils_args.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/egg_link.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/encoding.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/entrypoints.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/filesystem.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/filetypes.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/glibc.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/hashes.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/inject_securetransport.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/logging.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/misc.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/models.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/packaging.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/setuptools_build.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/subprocess.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/temp_dir.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/unpacking.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/urls.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/virtualenv.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/utils/wheel.py', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/vcs/__init__.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/vcs/bazaar.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/vcs/git.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/vcs/mercurial.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/vcs/subversion.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/vcs/versioncontrol.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_internal/wheel_builder.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/_cmd.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/adapter.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/cache.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/caches/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/compat.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/controller.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/filewrapper.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/heuristics.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/serialize.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/cachecontrol/wrapper.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/certifi/__init__.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/certifi/__main__.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/certifi/cacert.pem', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/certifi/core.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/__init__.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/big5freq.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/big5prober.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/chardistribution.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/charsetgroupprober.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/charsetprober.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/cli/chardetect.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/codingstatemachine.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/cp949prober.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/enums.py', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/escprober.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/escsm.py', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/eucjpprober.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/euckrfreq.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/euckrprober.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/euctwfreq.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/euctwprober.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/gb2312freq.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/gb2312prober.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/hebrewprober.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/jisfreq.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/johabfreq.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/johabprober.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/jpcntx.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/langbulgarianmodel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/langgreekmodel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/langhebrewmodel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/langhungarianmodel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/langrussianmodel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/langthaimodel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/langturkishmodel.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/latin1prober.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/mbcharsetprober.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/mbcsgroupprober.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/mbcssm.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/metadata/languages.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/sbcharsetprober.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/sbcsgroupprober.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/sjisprober.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/universaldetector.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/utf1632prober.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/utf8prober.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/chardet/version.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/colorama/__init__.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/colorama/ansi.py', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/colorama/ansitowin32.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/colorama/initialise.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/colorama/win32.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/colorama/winterm.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/__init__.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/compat.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/database.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/index.py', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/locators.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/manifest.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/markers.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/metadata.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/resources.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/scripts.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/util.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/version.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distlib/wheel.py', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distro/__init__.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distro/__main__.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/distro/distro.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/idna/__init__.py', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/idna/codec.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/idna/compat.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/idna/core.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/idna/idnadata.py', LF will be replaced by CRLF the next time Git touches it        
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/idna/intranges.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/idna/package_data.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/idna/uts46data.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/msgpack/__init__.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/msgpack/exceptions.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/msgpack/ext.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/msgpack/fallback.py', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/__about__.py', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/__init__.py', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/_manylinux.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/_musllinux.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/_structures.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/markers.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/requirements.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/specifiers.py', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/tags.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/utils.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/packaging/version.py', LF will be replaced by CRLF the next time Git touches it    
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/_compat.py', LF will be replaced by CRLF the next time Git touches it       
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/build.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/check.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/colorlog.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/dirtools.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/envbuild.py', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/in_process/__init__.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/in_process/_in_process.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/meta.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pep517/wrappers.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Users/HARI_JOHNSON/Desktop/Ecom_demo/my_env/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py', LF will be replaced by CRLF the next time Git touches it
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo> deactivate
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo> my_env\Scripts\activate
+my_env\Scripts\activate : The module 'my_env' could not be loaded. For more information, run 'Import-Module my_env'.
+At line:1 char:1
++ my_env\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (my_env\Scripts\activate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo> cd Ecom_demo
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> my_env\Scripts\activate
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git commit -m "git add to gitignor filr for remove the virtual env file"
+[main 3697370] git add to gitignor filr for remove the virtual env file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .gitignore
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 343 bytes | 343.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Harijohnson/Ecom_Demo.git
+   191f4a5..3697370  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> pip install django
+Fatal error in launcher: Unable to create process using '"C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\my_env\Scripts\python.exe"  "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Scripts\pip.exe" install django': The system cannot find the file specified.
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Scripts\pip.exe
+Fatal error in launcher: Unable to create process using '"C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\my_env\Scripts\python.exe"  "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Scripts\pip.exe" ': The system cannot find the file specified.
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> python-versio
+python-versio : The term 'python-versio' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, 
+verify that the path is correct and try again.
+At line:1 char:1
++ python-versio
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python-versio:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> python-version
+python-version : The term 'python-version' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, 
+verify that the path is correct and try again.
+At line:1 char:1
++ python-version
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (python-version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> python -version 
+Unknown option: -e
+usage: C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> python -v       
+import _frozen_importlib # frozen
+import _imp # builtin
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import 'winreg' # <class '_frozen_importlib.BuiltinImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'nt' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+# installing zipimport hook
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+import 'zipimport' # <class '_frozen_importlib.FrozenImporter'>
+# installed zipimport hook
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\encodings\__pycache__\__init__.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\encodings\__init__.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\encodings\\__pycache__\\__init__.cpython-311.pyc'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <class '_frozen_importlib.FrozenImporter'>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\encodings\__pycache__\aliases.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\encodings\aliases.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\encodings\\__pycache__\\aliases.cpython-311.pyc'
+import 'encodings.aliases' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D92F4ECD0>
+import 'encodings' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D92F475D0>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\encodings\__pycache__\utf_8.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\encodings\utf_8.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\encodings\\__pycache__\\utf_8.cpython-311.pyc'
+import 'encodings.utf_8' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D92F729D0>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\encodings\__pycache__\cp1252.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\encodings\\__pycache__\\cp1252.cpython-311.pyc'
+import 'encodings.cp1252' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D92F72FD0>
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+import '_abc' # <class '_frozen_importlib.BuiltinImporter'>
+import 'abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'io' # <class '_frozen_importlib.FrozenImporter'>
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <class '_frozen_importlib.FrozenImporter'>
+import '_collections_abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'genericpath' # <class '_frozen_importlib.FrozenImporter'>
+import '_winapi' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ntpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'os' # <class '_frozen_importlib.FrozenImporter'>
+import '_sitebuiltins' # <class '_frozen_importlib.FrozenImporter'>
+Processing global site-packages
+Adding directory: 'C:\\Users\\HARI_JOHNSON\\Desktop\\Ecom_demo\\Ecom_demo\\my_env'
+Adding directory: 'C:\\Users\\HARI_JOHNSON\\Desktop\\Ecom_demo\\Ecom_demo\\my_env\\Lib\\site-packages'
+Processing .pth file: 'C:\\Users\\HARI_JOHNSON\\Desktop\\Ecom_demo\\Ecom_demo\\my_env\\Lib\\site-packages\\distutils-precedence.pth'
+# C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\_distutils_hack\__pycache__\__init__.cpython-311.pyc matches C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\_distutils_hack\__init__.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\Desktop\\Ecom_demo\\Ecom_demo\\my_env\\Lib\\site-packages\\_distutils_hack\\__pycache__\\__init__.cpython-311.pyc'
+import '_distutils_hack' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D930ED450>
+Processing user site-packages
+Processing global site-packages
+Adding directory: 'C:\\Users\\HARI_JOHNSON\\Desktop\\Ecom_demo\\Ecom_demo\\my_env'
+Adding directory: 'C:\\Users\\HARI_JOHNSON\\Desktop\\Ecom_demo\\Ecom_demo\\my_env\\Lib\\site-packages'
+Processing .pth file: 'C:\\Users\\HARI_JOHNSON\\Desktop\\Ecom_demo\\Ecom_demo\\my_env\\Lib\\site-packages\\distutils-precedence.pth'
+import 'site' # <class '_frozen_importlib.FrozenImporter'>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\rlcompleter.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\rlcompleter.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\rlcompleter.cpython-311.pyc'
+import 'atexit' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\inspect.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\inspect.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\inspect.cpython-311.pyc'
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\ast.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\ast.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\ast.cpython-311.pyc'
+import '_ast' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\contextlib.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\contextlib.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\contextlib.cpython-311.pyc'
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\collections\__pycache__\__init__.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\collections\__init__.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\collections\\__pycache__\\__init__.cpython-311.pyc'
+import 'itertools' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\keyword.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\keyword.py  
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\keyword.cpython-311.pyc'
+import 'keyword' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93177210>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\operator.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\operator.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\operator.cpython-311.pyc'
+import '_operator' # <class '_frozen_importlib.BuiltinImporter'>
+import 'operator' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93177790>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\reprlib.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\reprlib.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\reprlib.cpython-311.pyc'
+import 'reprlib' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D9318C390>
+import '_collections' # <class '_frozen_importlib.BuiltinImporter'>
+import 'collections' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93157D50>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\functools.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\functools.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\functools.cpython-311.pyc'
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\types.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\types.py      
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\types.cpython-311.pyc'
+import 'types' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D9319FB90>
+import '_functools' # <class '_frozen_importlib.BuiltinImporter'>
+import 'functools' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93165BD0>
+import 'contextlib' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93156050>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\enum.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\enum.py        
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\enum.cpython-311.pyc'
+import 'enum' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93156CD0>
+import 'ast' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D9310FE10>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\dis.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\dis.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\dis.cpython-311.pyc'
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\opcode.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\opcode.py    
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\opcode.cpython-311.pyc'
+import '_opcode' # <class '_frozen_importlib.BuiltinImporter'>
+import 'opcode' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D933F2090>
+import 'dis' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93117B90>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\collections\__pycache__\abc.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\collections\abc.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\collections\\__pycache__\\abc.cpython-311.pyc'
+import 'collections.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D933E7510>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__pycache__\__init__.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\__pycache__\\__init__.cpython-311.pyc'
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\warnings.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\warnings.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\warnings.cpython-311.pyc'
+import 'warnings' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D933F9D10>
+import 'importlib' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D933FA450>
+import 'importlib.machinery' # <class '_frozen_importlib.FrozenImporter'>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\linecache.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\linecache.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\linecache.cpython-311.pyc'
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\tokenize.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\tokenize.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\tokenize.cpython-311.pyc'
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\re\__pycache__\__init__.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\re\__init__.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\re\\__pycache__\\__init__.cpython-311.pyc'
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\re\__pycache__\_compiler.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\re\\__pycache__\\_compiler.cpython-311.pyc'
+import '_sre' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\re\__pycache__\_parser.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\re\\__pycache__\\_parser.cpython-311.pyc'
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\re\__pycache__\_constants.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\re\_constants.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\re\\__pycache__\\_constants.cpython-311.pyc'
+import 're._constants' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93422450>
+import 're._parser' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D9341B490>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\re\__pycache__\_casefix.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\re\_casefix.py
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\re\\__pycache__\\_casefix.cpython-311.pyc'
+import 're._casefix' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93431C10>
+import 're._compiler' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93413D90>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\copyreg.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\copyreg.py  
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\copyreg.cpython-311.pyc'
+import 'copyreg' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93432ED0>
+import 're' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93412190>
+# C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\__pycache__\token.cpython-311.pyc matches C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\token.py      
+# code object from 'C:\\Users\\HARI_JOHNSON\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__pycache__\\token.cpython-311.pyc'
+import 'token' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D93413610>
+import 'tokenize' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D933FEED0>
+import 'linecache' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D933FA250>
+import 'inspect' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D930EF750>
+import 'rlcompleter' # <_frozen_importlib_external.SourceFileLoader object at 0x0000016D930EEA90>
+Python 3.11.3 (tags/v3.11.3:f3909b8, Apr  4 2023, 23:49:59) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print('hi')
+hi
+>>> pip install django
+  File "<stdin>", line 1
+    pip install django
+        ^^^^^^^
+SyntaxError: invalid syntax
+>>>
+KeyboardInterrupt
+>>>
+KeyboardInterrupt
+>>> exit
+Use exit() or Ctrl-Z plus Return to exit
+>>> exit()
+# clear builtins._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# clear sys.path_hooks
+# clear sys.path_importer_cache
+# clear sys.meta_path
+# clear sys.__interactivehook__
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup[2] removing sys
+# cleanup[2] removing builtins
+# cleanup[2] removing _frozen_importlib
+# cleanup[2] removing _imp
+# cleanup[2] removing _thread
+# cleanup[2] removing _warnings
+# cleanup[2] removing _weakref
+# cleanup[2] removing winreg
+# cleanup[2] removing _io
+# cleanup[2] removing marshal
+# cleanup[2] removing nt
+# cleanup[2] removing _frozen_importlib_external
+# cleanup[2] removing time
+# cleanup[2] removing zipimport
+# destroy zipimport
+# cleanup[2] removing _codecs
+# cleanup[2] removing codecs
+# cleanup[2] removing encodings.aliases
+# cleanup[2] removing encodings
+# destroy encodings
+# cleanup[2] removing encodings.utf_8
+# cleanup[2] removing encodings.cp1252
+# cleanup[2] removing _signal
+# cleanup[2] removing _abc
+# cleanup[2] removing abc
+# cleanup[2] removing io
+# cleanup[2] removing __main__
+# cleanup[2] removing _stat
+# cleanup[2] removing stat
+# cleanup[2] removing _collections_abc
+# cleanup[2] removing genericpath
+# cleanup[2] removing _winapi
+# cleanup[2] removing ntpath
+# cleanup[2] removing os.path
+# cleanup[2] removing os
+# cleanup[2] removing _sitebuiltins
+# cleanup[2] removing _distutils_hack
+# destroy _distutils_hack
+# cleanup[2] removing site
+# destroy site
+# cleanup[2] removing atexit
+# cleanup[2] removing _ast
+# destroy _ast
+# cleanup[2] removing itertools
+# cleanup[2] removing keyword
+# cleanup[2] removing _operator
+# cleanup[2] removing operator
+# destroy operator
+# cleanup[2] removing reprlib
+# destroy reprlib
+# cleanup[2] removing _collections
+# cleanup[2] removing collections
+# cleanup[2] removing types
+# cleanup[2] removing _functools
+# cleanup[2] removing functools
+# cleanup[2] removing contextlib
+# destroy contextlib
+# cleanup[2] removing enum
+# cleanup[2] removing ast
+# cleanup[2] removing _opcode
+# cleanup[2] removing opcode
+# destroy opcode
+# cleanup[2] removing dis
+# cleanup[2] removing collections.abc
+# cleanup[2] removing importlib._bootstrap
+# cleanup[2] removing importlib._bootstrap_external
+# cleanup[2] removing warnings
+# cleanup[2] removing importlib
+# cleanup[2] removing importlib.machinery
+# cleanup[2] removing _sre
+# cleanup[2] removing re._constants
+# cleanup[2] removing re._parser
+# cleanup[2] removing re._casefix
+# cleanup[2] removing re._compiler
+# cleanup[2] removing copyreg
+# cleanup[2] removing re
+# cleanup[2] removing token
+# cleanup[2] removing tokenize
+# cleanup[2] removing linecache
+# cleanup[2] removing inspect
+# cleanup[2] removing rlcompleter
+# destroy rlcompleter
+# destroy _signal
+# destroy _sitebuiltins
+# destroy inspect
+# destroy keyword
+# destroy __main__
+# destroy atexit
+# destroy ast
+# destroy dis
+# destroy importlib
+# destroy linecache
+# destroy token
+# destroy types
+# destroy io
+# destroy _opcode
+# destroy warnings
+# destroy importlib.machinery
+# destroy tokenize
+# destroy collections
+# destroy itertools
+# destroy re
+# destroy enum
+# destroy re._constants
+# destroy re._casefix
+# destroy re._compiler
+# destroy functools
+# destroy copyreg
+# destroy re._parser
+# destroy _sre
+# cleanup[3] wiping importlib._bootstrap_external
+# cleanup[3] wiping importlib._bootstrap
+# cleanup[3] wiping collections.abc
+# cleanup[3] wiping _functools
+# cleanup[3] wiping _collections
+# cleanup[3] wiping _operator
+# cleanup[3] wiping os
+# destroy ntpath
+# cleanup[3] wiping _winapi
+# cleanup[3] wiping genericpath
+# cleanup[3] wiping _collections_abc
+# cleanup[3] wiping stat
+# cleanup[3] wiping _stat
+# destroy _stat
+# cleanup[3] wiping abc
+# cleanup[3] wiping _abc
+# cleanup[3] wiping encodings.cp1252
+# cleanup[3] wiping encodings.utf_8
+# cleanup[3] wiping encodings.aliases
+# cleanup[3] wiping codecs
+# cleanup[3] wiping _codecs
+# cleanup[3] wiping time
+# cleanup[3] wiping _frozen_importlib_external
+# cleanup[3] wiping nt
+# cleanup[3] wiping marshal
+# cleanup[3] wiping _io
+# cleanup[3] wiping winreg
+# cleanup[3] wiping _weakref
+# cleanup[3] wiping _warnings
+# cleanup[3] wiping _thread
+# cleanup[3] wiping _imp
+# cleanup[3] wiping _frozen_importlib
+# cleanup[3] wiping sys
+# cleanup[3] wiping builtins
+# destroy winreg
+# destroy _frozen_importlib_external
+# destroy _imp
+# destroy io
+# destroy marshal
+# destroy time
+# destroy _warnings
+# destroy stat
+# destroy genericpath
+# destroy nt
+# destroy _winapi
+# destroy _frozen_importlib
+# destroy codecs
+# destroy encodings.aliases
+# destroy encodings.utf_8
+# destroy encodings.cp1252
+# destroy _codecs
+# destroy abc
+# destroy os
+# destroy _abc
+# destroy _functools
+# destroy _collections_abc
+# destroy sys
+# destroy _operator
+# destroy _weakref
+# destroy _collections
+# destroy collections.abc
+# destroy builtins
+# destroy _thread
+# clear sys.audit hooks
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> pip install django
+Fatal error in launcher: Unable to create process using '"C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\my_env\Scripts\python.exe"  "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Scripts\pip.exe" install django': The system cannot find the file specified.
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> python -m pip install django
+Collecting django
+  Using cached Django-4.2.6-py3-none-any.whl (8.0 MB)
+Collecting asgiref<4,>=3.6.0
+  Using cached asgiref-3.7.2-py3-none-any.whl (24 kB)
+Collecting sqlparse>=0.3.1
+  Using cached sqlparse-0.4.4-py3-none-any.whl (41 kB)
+Collecting tzdata
+  Using cached tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.7.2 django-4.2.6 sqlparse-0.4.4 tzdata-2023.3
+
+[notice] A new release of pip available: 22.3.1 -> 23.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> python -m pip install pillow 
+Collecting pillow
+  Using cached Pillow-10.1.0-cp311-cp311-win_amd64.whl (2.6 MB)
+Installing collected packages: pillow
+Successfully installed pillow-10.1.0
+
+[notice] A new release of pip available: 22.3.1 -> 23.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> django-admin startproject ecom_demo
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> cd ecom_demo
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> python manage.py startapp store
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+October 29, 2023 - 08:38:34
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[29/Oct/2023 08:38:41] "GET / HTTP/1.1" 200 10664
+Not Found: /favicon.ico
+[29/Oct/2023 08:38:43] "GET /favicon.ico HTTP/1.1" 404 2113
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   db.sqlite3
+        new file:   ecom_demo/__init__.py
+        new file:   ecom_demo/__pycache__/__init__.cpython-311.pyc
+        new file:   ecom_demo/__pycache__/settings.cpython-311.pyc
+        new file:   ecom_demo/__pycache__/urls.cpython-311.pyc
+        new file:   ecom_demo/__pycache__/wsgi.cpython-311.pyc
+        new file:   ecom_demo/asgi.py
+        new file:   ecom_demo/settings.py
+        new file:   ecom_demo/urls.py
+        new file:   ecom_demo/wsgi.py
+        new file:   manage.py
+        new file:   store/__init__.py
+        new file:   store/admin.py
+        new file:   store/apps.py
+        new file:   store/migrations/__init__.py
+        new file:   store/models.py
+        new file:   store/tests.py
+        new file:   store/views.py
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git commit -m "base file are created for django"
+[main cb82e45] base file are created for django
+ 18 files changed, 217 insertions(+)
+ create mode 100644 ecom_demo/db.sqlite3
+ create mode 100644 ecom_demo/ecom_demo/__init__.py
+ create mode 100644 ecom_demo/ecom_demo/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 ecom_demo/ecom_demo/__pycache__/settings.cpython-311.pyc
+ create mode 100644 ecom_demo/ecom_demo/__pycache__/urls.cpython-311.pyc
+ create mode 100644 ecom_demo/ecom_demo/__pycache__/wsgi.cpython-311.pyc
+ create mode 100644 ecom_demo/ecom_demo/asgi.py
+ create mode 100644 ecom_demo/ecom_demo/settings.py
+ create mode 100644 ecom_demo/ecom_demo/urls.py
+ create mode 100644 ecom_demo/ecom_demo/wsgi.py
+ create mode 100644 ecom_demo/manage.py
+ create mode 100644 ecom_demo/store/__init__.py
+ create mode 100644 ecom_demo/store/admin.py
+ create mode 100644 ecom_demo/store/apps.py
+ create mode 100644 ecom_demo/store/migrations/__init__.py
+ create mode 100644 ecom_demo/store/models.py
+ create mode 100644 ecom_demo/store/tests.py
+ create mode 100644 ecom_demo/store/views.py
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git push origin main
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (22/22), 6.11 KiB | 1.53 MiB/s, done.
+Total 22 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   3697370..cb82e45  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> c:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\ecom_demo\settings.py
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> python manage.py makemigrations
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 382, in execute
+    settings.INSTALLED_APPS
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\conf\__init__.py", line 102, in __getattr__
+    self._setup(name)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\conf\__init__.py", line 89, in _setup
+    self._wrapped = Settings(settings_module)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\conf\__init__.py", line 217, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo\ecom_demo\settings.py", line 19, in <module>
+    BASE_DIR2 = os.path.dirname(os.psth.dirname(os.path.abspath(__file__)))
+                                ^^^^^^^
+AttributeError: module 'os' has no attribute 'psth'. Did you mean: 'path'?
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> python manage.py makemigrations
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\db\backends\mysql\base.py", line 15, in <module>
+    import MySQLdb as Database
+ModuleNotFoundError: No module named 'MySQLdb'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\contrib\auth\models.py", line 3, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\contrib\auth\base_user.py", line 57, in <module>
+    class AbstractBaseUser(models.Model):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\db\models\base.py", line 143, in __new__
+    new_class.add_to_class("_meta", Options(meta, app_label))
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\db\models\base.py", line 371, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\db\models\options.py", line 243, in contribute_to_class
+    self.db_table, connection.ops.max_name_length()
+                   ^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\utils\connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\utils\connection.py", line 62, in __getitem__
+    conn = self.create_connection(alias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\db\utils.py", line 193, in create_connection
+    backend = load_backend(db["ENGINE"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\db\utils.py", line 113, in load_backend
+    return import_module("%s.base" % backend_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Lib\site-packages\django\db\backends\mysql\base.py", line 17, in <module>
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module.
+Did you install mysqlclient?
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> python -m pip install mysqlclient 
+Collecting mysqlclient
+  Using cached mysqlclient-2.2.0-cp311-cp311-win_amd64.whl (199 kB)
+Installing collected packages: mysqlclient
+Successfully installed mysqlclient-2.2.0
+
+[notice] A new release of pip available: 22.3.1 -> 23.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> python manage.py makemigrations  
+No changes detected
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ecom_demo/__pycache__/settings.cpython-311.pyc
+        modified:   ecom_demo/settings.py
+        new file:   store/__pycache__/__init__.cpython-311.pyc
+        new file:   store/__pycache__/admin.cpython-311.pyc
+        new file:   store/__pycache__/apps.cpython-311.pyc
+        new file:   store/__pycache__/models.cpython-311.pyc
+        new file:   store/migrations/__pycache__/__init__.cpython-311.pyc
+        new file:   store/templates/base.html
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git commit -m "make migrations are done in local db "
+[main 8ed91a4] make migrations are done in local db
+ 8 files changed, 46 insertions(+), 5 deletions(-)
+ create mode 100644 ecom_demo/store/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 ecom_demo/store/__pycache__/admin.cpython-311.pyc
+ create mode 100644 ecom_demo/store/__pycache__/apps.cpython-311.pyc
+ create mode 100644 ecom_demo/store/__pycache__/models.cpython-311.pyc
+ create mode 100644 ecom_demo/store/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 ecom_demo/store/templates/base.html
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git push origin main
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (18/18), 3.05 KiB | 624.00 KiB/s, done.
+Total 18 (delta 9), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (9/9), completed with 7 local objects.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   cb82e45..8ed91a4  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2023 - 09:01:21
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[29/Oct/2023 09:01:24] "GET / HTTP/1.1" 200 10664
+[29/Oct/2023 09:01:30] "GET / HTTP/1.1" 200 10664
+
+
+
+
+
