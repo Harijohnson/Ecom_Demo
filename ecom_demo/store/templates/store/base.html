@@ -9,37 +9,76 @@
     <title>Ecom</title>
 </head>
 <body>
-    <nav>
-        <!-- mobile view navbar  -->
-        <ul class="sidebar">
-            <li onclick=closeMenuBar() id="col"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"> <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li ><a href="#">Product</a></li>
-            <li ><a href="#">Paintings</a></li>
-            <li ><a href="#">
-                <form action="#">
-                    <input type="search" id="gsearch" name="gsearch">
-                    <input type="submit">
-              </form></a></li>
-            <li id="col"><a href="#">Login</a></li>
-        </ul>
-        <!-- desktop view navbar -->
-        <ul>
-            <li><a>Termic</a></li>
-            <li><a class="hideOnMobile">Product</a></li>
-            <li><a  class="hideOnMobile">Paintings</a></li>
-            <li class="hideOnMobile"><a href="#"><form action="#">
-                <input type="search" id="gsearch" name="gsearch">
-                <input type="submit">
-              </form></a></li>
-            <li><a href="#" class="hideOnMobile">Login</a></li>
-            <li onclick=showSidebar() class="menu-button"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
-                 viewBox="0 -960 960 960" width="26">
-                 <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
-            </li>
-        </ul>
+    <div class="nav">
+        <nav>
+            <!-- mobile view navbar  -->
+            <div class="sidebar_mobile_view">
+                <ul class="sidebar">
+                    
 
-    </nav>
+                    <div class="close-sandwich">
+                        <li onclick=closeMenuBar() id="col"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"> 
+                            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    </div>
 
+                    <div class="search_sidebar">
+                        <li ><a href="#">
+                            <form action="#">
+                                <input type="search" id="search" name="search" placeholder="Product">
+                                <input type="submit">
+                            </form>
+                        </a></li>
+                    </div>
+
+                    <div class="product_sidebar">
+                        <li ><a href="#">Product</a></li>
+                    </div>
+                    <div class="painting_sidebar">
+                        <li ><a href="#">Paintings</a></li>
+                    </div>
+                    
+                    <div class="login_sidebar">
+                        <li id="col"><a href="#">Login</a></li>
+                    </div>
+                </ul>
+            </div>
+            <!-- desktop view navbar -->
+            <div class="navbar">
+                <ul>
+
+                    <div class="logoForWebsite">
+                        <!-- <li ><a href="{% url 'store' %}" ><img src="{% static 'images/logo.png' %}" alt="logo" id="logo"></a></li> -->
+                        <li class="hideOnMobile"><a href="#" >Termic</a></li>
+                    </div>
+                    <div class="search">
+                        <li class="hideOnMobile"><a href="#">
+                            <form action="#">
+                                <input type="search" id="search" name="search" placeholder="Product">
+                                <input type="submit" >
+                            </form>
+                        </a></li>
+                    </div>
+                    
+                    <div class="product">
+                        <li class="hideOnMobile"><a>Product</a></li>
+                    </div>
+                    <div class="painting">
+                        <li class="hideOnMobile"><a>Paintings</a></li>
+                    </div>
+                    
+                    
+                    <div class="login">
+                        <li class="hideOnMobile"><a href="#">Login</a></li>
+                    </div>
+                    <div class="sandwich_bar">
+                        <li onclick=showSidebar() class="menu-button"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
 
 

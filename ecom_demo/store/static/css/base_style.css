@@ -13,8 +13,19 @@ body{
 
 }
 
+/* #logo{
+    width:20px;
+    height:10px;
+} */
+/* 
+#logo {
+    height: 50px;
+    width: 150px;
+    display: block;
+    /* margin-block: auto; 
+} */
 nav{
-    background-color: white;
+    background-color: rgb(213, 255, 229);
     box-shadow: 3px 3px 5px rgba(0,0,0,.1);
 }
 
@@ -48,7 +59,7 @@ nav a:hover{
 }
 
 
-nav li:first-child{
+.logoForWebsite{
     margin-right: auto;
 }
 
@@ -80,7 +91,15 @@ nav li:first-child{
 
 .menu-button{
     display:none;
+    
 }
+
+#search{
+    width: 100px;
+    height: 20px;
+}
+
+
 
 @media (max-width:700px) {
     .hideOnMobile{
