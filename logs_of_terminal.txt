@@ -777,6 +777,680 @@ To https://github.com/Harijohnson/Ecom_Demo.git
 
 
 
+[29/Oct/2023 20:12:04] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:12:04] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:12:11] "GET /product/ HTTP/1.1" 200 7320
+[29/Oct/2023 20:12:12] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:12:12] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:12:12] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:12:12] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:12:12] "GET /static/css/product_info.css HTTP/1.1" 200 2492
+[29/Oct/2023 20:12:12] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:12:23] "GET /product/ HTTP/1.1" 200 7320
+[29/Oct/2023 20:12:23] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:12:23] "GET /static/css/product_info.css HTTP/1.1" 200 2492
+[29/Oct/2023 20:12:23] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:12:23] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:12:23] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:12:23] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:12:41] "GET /product/ HTTP/1.1" 200 7320
+[29/Oct/2023 20:12:41] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:12:41] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:12:41] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:12:41] "GET /static/css/product_info.css HTTP/1.1" 200 2492
+[29/Oct/2023 20:12:41] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:12:41] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:12:55] "GET /product/ HTTP/1.1" 200 7320
+[29/Oct/2023 20:12:55] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:12:55] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:12:55] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:12:55] "GET /static/css/product_info.css HTTP/1.1" 200 2490
+[29/Oct/2023 20:12:55] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:12:55] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:13:06] "GET /product/ HTTP/1.1" 200 7320
+[29/Oct/2023 20:13:06] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:13:06] "GET /static/css/product_info.css HTTP/1.1" 200 2492
+[29/Oct/2023 20:13:06] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:13:06] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:13:06] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:13:06] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:13:26] "GET /product/ HTTP/1.1" 200 7320
+[29/Oct/2023 20:13:26] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:13:26] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:13:26] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:13:26] "GET /static/css/product_info.css HTTP/1.1" 200 2516
+[29/Oct/2023 20:13:26] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:13:26] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:14:22] "GET /product/ HTTP/1.1" 200 7320
+[29/Oct/2023 20:14:22] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:14:22] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:14:22] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:14:22] "GET /static/css/product_info.css HTTP/1.1" 200 2549
+[29/Oct/2023 20:14:22] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:14:22] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:16:03] "GET /product/ HTTP/1.1" 200 7595
+[29/Oct/2023 20:16:03] "GET /static/css/product_info.css HTTP/1.1" 200 2549
+[29/Oct/2023 20:16:03] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:16:03] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:16:03] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:16:03] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:16:04] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:17:36] "GET /product/ HTTP/1.1" 200 7595
+[29/Oct/2023 20:17:36] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:17:36] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:17:36] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:17:36] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:17:36] "GET /static/css/product_info.css HTTP/1.1" 200 2676
+[29/Oct/2023 20:17:36] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:19:33] "GET /product/ HTTP/1.1" 200 7595
+[29/Oct/2023 20:19:33] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:19:33] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:19:33] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:19:33] "GET /static/css/product_info.css HTTP/1.1" 200 2834
+[29/Oct/2023 20:19:33] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:19:33] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:20:24] "GET /product/ HTTP/1.1" 200 7661
+[29/Oct/2023 20:20:25] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:20:25] "GET /static/css/product_info.css HTTP/1.1" 200 2834
+[29/Oct/2023 20:20:25] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:20:25] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:20:25] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:20:25] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/POST
+[29/Oct/2023 20:20:27] "GET /product/POST? HTTP/1.1" 404 2601
+Not Found: /favicon.ico
+[29/Oct/2023 20:20:27] "GET /favicon.ico HTTP/1.1" 404 2598
+[29/Oct/2023 20:24:57] "GET /product/ HTTP/1.1" 200 7748
+[29/Oct/2023 20:24:57] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:24:57] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:24:57] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:24:57] "GET /static/css/product_info.css HTTP/1.1" 200 3105
+[29/Oct/2023 20:24:57] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:24:57] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:25:27] "GET /product/ HTTP/1.1" 200 7660
+[29/Oct/2023 20:25:27] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:25:27] "GET /static/css/product_info.css HTTP/1.1" 200 3105
+[29/Oct/2023 20:25:27] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:25:27] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:25:27] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:25:27] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:25:40] "GET /product/ HTTP/1.1" 200 7660
+[29/Oct/2023 20:25:40] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:25:40] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:25:40] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:25:40] "GET /static/css/product_info.css HTTP/1.1" 200 3112
+[29/Oct/2023 20:25:40] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:25:40] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:25:46] "GET /product/ HTTP/1.1" 200 7660
+[29/Oct/2023 20:25:46] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:25:46] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:25:46] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:25:46] "GET /static/css/product_info.css HTTP/1.1" 200 3112
+[29/Oct/2023 20:25:46] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:25:46] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:26:07] "GET /product/ HTTP/1.1" 200 7660
+[29/Oct/2023 20:26:07] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:26:07] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:26:07] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:26:07] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:26:07] "GET /static/css/product_info.css HTTP/1.1" 200 3109
+[29/Oct/2023 20:26:07] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:28:18] "GET /product/ HTTP/1.1" 200 7859
+[29/Oct/2023 20:28:18] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:28:18] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:28:18] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:28:18] "GET /static/css/product_info.css HTTP/1.1" 200 3182
+[29/Oct/2023 20:28:18] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:28:18] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:30:57] "GET /product/ HTTP/1.1" 200 7859
+[29/Oct/2023 20:30:57] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:30:57] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:30:57] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:30:57] "GET /static/css/product_info.css HTTP/1.1" 200 3378
+[29/Oct/2023 20:30:57] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:30:57] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:32:10] "GET /product/ HTTP/1.1" 200 7867
+[29/Oct/2023 20:32:10] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:32:10] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:32:10] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:32:10] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:32:10] "GET /static/javascript/product_info.js HTTP/1.1" 200 33
+[29/Oct/2023 20:32:10] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:37:24] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:37:24] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:37:24] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:37:24] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:37:24] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:37:24] "GET /static/javascript/product_info.js HTTP/1.1" 200 467
+[29/Oct/2023 20:37:24] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:38:40] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:38:40] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:38:40] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:38:40] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:38:40] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:38:40] "GET /static/javascript/product_info.js HTTP/1.1" 200 464
+[29/Oct/2023 20:38:42] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:41:41] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:41:41] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:41:41] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:41:41] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:41:41] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:41:41] "GET /static/javascript/product_info.js HTTP/1.1" 200 455
+[29/Oct/2023 20:41:43] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:42:29] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:42:29] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:42:29] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:42:29] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:42:29] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:42:29] "GET /static/javascript/product_info.js HTTP/1.1" 200 500
+[29/Oct/2023 20:42:54] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:43:38] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:43:38] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:43:38] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:43:38] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:43:38] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:43:38] "GET /static/javascript/product_info.js HTTP/1.1" 200 521
+[29/Oct/2023 20:43:41] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:45:12] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:45:12] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:45:12] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:45:12] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:45:12] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:45:12] "GET /static/javascript/product_info.js HTTP/1.1" 200 500
+[29/Oct/2023 20:45:15] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:46:34] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:46:34] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:46:34] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:46:34] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:46:34] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:46:34] "GET /static/javascript/product_info.js HTTP/1.1" 200 594
+[29/Oct/2023 20:46:34] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:46:58] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:46:58] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:46:58] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:46:58] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:46:58] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:46:58] "GET /static/javascript/product_info.js HTTP/1.1" 200 655
+[29/Oct/2023 20:46:58] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:50:57] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:50:57] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:50:57] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:50:57] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:50:57] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:50:57] "GET /static/javascript/product_info.js HTTP/1.1" 200 637
+[29/Oct/2023 20:50:59] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:51:21] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:51:21] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:51:21] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:51:21] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:51:21] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:51:21] "GET /static/javascript/product_info.js HTTP/1.1" 200 639
+[29/Oct/2023 20:51:23] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:52:44] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:52:44] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:52:44] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:52:44] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:52:44] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:52:45] "GET /static/javascript/product_info.js HTTP/1.1" 200 674
+[29/Oct/2023 20:52:46] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:53:31] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:53:31] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:53:31] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:53:31] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:53:31] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:53:31] "GET /static/javascript/product_info.js HTTP/1.1" 200 671
+[29/Oct/2023 20:53:31] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:54:16] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:54:16] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:54:16] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:54:16] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:54:16] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:54:16] "GET /static/javascript/product_info.js HTTP/1.1" 200 690
+[29/Oct/2023 20:54:16] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:54:39] "GET /product/ HTTP/1.1" 200 7883
+[29/Oct/2023 20:54:39] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:54:39] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:54:39] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:54:39] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:54:39] "GET /static/javascript/product_info.js HTTP/1.1" 200 704
+[29/Oct/2023 20:54:39] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:56:45] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 20:56:45] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:56:45] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:56:45] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:56:45] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:56:46] "GET /static/javascript/product_info.js HTTP/1.1" 200 712
+[29/Oct/2023 20:56:47] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 20:57:25] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 20:57:25] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:57:25] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:57:25] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:57:25] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:57:25] "GET /static/javascript/product_info.js HTTP/1.1" 200 700
+[29/Oct/2023 20:57:25] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/images/product2.png
+[29/Oct/2023 20:57:29] "GET /product/images/product2.png HTTP/1.1" 404 2646
+Not Found: /product/images/product3.png
+[29/Oct/2023 20:57:33] "GET /product/images/product3.png HTTP/1.1" 404 2646
+[29/Oct/2023 20:58:00] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 20:58:00] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 20:58:00] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 20:58:00] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 20:58:00] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 20:58:00] "GET /static/javascript/product_info.js HTTP/1.1" 200 709
+[29/Oct/2023 20:58:00] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /images/product2.png
+[29/Oct/2023 20:58:02] "GET /images/product2.png HTTP/1.1" 404 2622   
+Not Found: /images/product3.png
+[29/Oct/2023 20:58:05] "GET /images/product3.png HTTP/1.1" 404 2622   
+Not Found: /images/product3.png
+[29/Oct/2023 20:58:05] "GET /images/product3.png HTTP/1.1" 404 2622   
+Not Found: /images/product3.png
+[29/Oct/2023 20:58:05] "GET /images/product3.png HTTP/1.1" 404 2622   
+[29/Oct/2023 20:58:46] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 20:58:46] "GET /static/javascript/product_info.js HTTP/1.1" 200 709
+Not Found: /images/product2.png
+[29/Oct/2023 20:58:49] "GET /images/product2.png HTTP/1.1" 404 2622   
+Not Found: /images/product2.png
+[29/Oct/2023 20:58:50] "GET /images/product2.png HTTP/1.1" 404 2622   
+Not Found: /images/product2.png
+[29/Oct/2023 20:58:50] "GET /images/product2.png HTTP/1.1" 404 2622   
+Not Found: /images/product3.png
+[29/Oct/2023 20:59:14] "GET /images/product3.png HTTP/1.1" 404 2622   
+[29/Oct/2023 21:02:45] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:02:45] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:02:45] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:02:45] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:02:45] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:02:45] "GET /static/javascript/product_info.js HTTP/1.1" 200 1026
+[29/Oct/2023 21:02:45] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /images/product2.png
+[29/Oct/2023 21:02:49] "GET /images/product2.png HTTP/1.1" 404 2622   
+Not Found: /images/product3.png
+[29/Oct/2023 21:02:52] "GET /images/product3.png HTTP/1.1" 404 2622   
+Not Found: /images/product1.png
+[29/Oct/2023 21:02:54] "GET /images/product1.png HTTP/1.1" 404 2622   
+Not Found: /images/product1.png
+[29/Oct/2023 21:02:56] "GET /images/product1.png HTTP/1.1" 404 2622   
+Not Found: /images/product1.png
+[29/Oct/2023 21:02:57] "GET /images/product1.png HTTP/1.1" 404 2622   
+Not Found: /images/product1.png
+[29/Oct/2023 21:02:58] "GET /images/product1.png HTTP/1.1" 404 2622   
+Not Found: /images/product1.png
+[29/Oct/2023 21:02:58] "GET /images/product1.png HTTP/1.1" 404 2622   
+Not Found: /images/product1.png
+[29/Oct/2023 21:02:59] "GET /images/product1.png HTTP/1.1" 404 2622   
+Not Found: /images/product2.png
+[29/Oct/2023 21:03:00] "GET /images/product2.png HTTP/1.1" 404 2622   
+Not Found: /images/product2.png
+[29/Oct/2023 21:03:01] "GET /images/product2.png HTTP/1.1" 404 2622   
+Not Found: /images/product3.png
+[29/Oct/2023 21:03:04] "GET /images/product3.png HTTP/1.1" 404 2622   
+Not Found: /images/product3.png
+[29/Oct/2023 21:03:05] "GET /images/product3.png HTTP/1.1" 404 2622   
+Not Found: /images/product3.png
+[29/Oct/2023 21:03:05] "GET /images/product3.png HTTP/1.1" 404 2622   
+[29/Oct/2023 21:05:18] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:05:18] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:05:18] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:05:18] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:05:18] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:05:18] "GET /static/javascript/product_info.js HTTP/1.1" 200 1071
+[29/Oct/2023 21:05:18] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/{% static '../images/product2.png' %}
+[29/Oct/2023 21:05:27] "GET /product/%7B%%20static%20'../images/product2.png'%20%%7D HTTP/1.1" 404 2744
+Not Found: /product/{% static '../images/product2.png' %}
+[29/Oct/2023 21:05:30] "GET /product/%7B%%20static%20'../images/product2.png'%20%%7D HTTP/1.1" 404 2744
+Not Found: /product/{% static '../images/product2.png' %}
+[29/Oct/2023 21:05:35] "GET /product/%7B%%20static%20'../images/product2.png'%20%%7D HTTP/1.1" 404 2744
+[29/Oct/2023 21:06:02] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:06:02] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:06:02] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:06:02] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:06:02] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:06:02] "GET /static/javascript/product_info.js HTTP/1.1" 200 1062
+[29/Oct/2023 21:06:03] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:06:06] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:06:08] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+[29/Oct/2023 21:07:01] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:07:01] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:07:01] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:07:01] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:07:01] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:07:01] "GET /static/javascript/product_info.js HTTP/1.1" 200 1075
+[29/Oct/2023 21:07:01] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:07:03] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'store/static/images/product1.png' %}
+[29/Oct/2023 21:07:03] "GET /product/%7B%%20static%20'store/static/images/product1.png'%20%%7D HTTP/1.1" 404 2774
+[29/Oct/2023 21:08:23] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:08:23] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:08:23] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:08:23] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:08:23] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:08:23] "GET /static/javascript/product_info.js HTTP/1.1" 200 1069
+[29/Oct/2023 21:08:23] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:08:25] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'static/images/product1.png' %}
+[29/Oct/2023 21:08:26] "GET /product/%7B%%20static%20'static/images/product1.png'%20%%7D HTTP/1.1" 404 2756
+[29/Oct/2023 21:08:33] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:08:33] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:08:33] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:08:33] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:08:33] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:08:33] "GET /static/javascript/product_info.js HTTP/1.1" 200 1062
+[29/Oct/2023 21:08:33] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:08:36] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:08:37] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+[29/Oct/2023 21:08:47] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:08:47] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:08:47] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:08:47] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:08:47] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:08:47] "GET /static/javascript/product_info.js HTTP/1.1" 200 1055
+[29/Oct/2023 21:08:47] "GET /static/images/fv.png HTTP/1.1" 200 5856  
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:08:49] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'product1.png' %}
+[29/Oct/2023 21:08:50] "GET /product/%7B%%20static%20'product1.png'%20%%7D HTTP/1.1" 404 2714
+[29/Oct/2023 21:09:02] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:09:02] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:09:02] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:09:02] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:09:02] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:09:03] "GET /static/javascript/product_info.js HTTP/1.1" 200 1040
+[29/Oct/2023 21:09:03] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:09:07] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/product1.png
+[29/Oct/2023 21:09:09] "GET /product/product1.png HTTP/1.1" 404 2625  
+Not Found: /product/product1.png
+[29/Oct/2023 21:09:10] "GET /product/product1.png HTTP/1.1" 404 2625  
+Not Found: /product/product1.png
+[29/Oct/2023 21:09:10] "GET /product/product1.png HTTP/1.1" 404 2625  
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:09:15] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:09:16] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:09:16] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+[29/Oct/2023 21:12:58] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:12:58] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:12:58] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:12:58] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:12:58] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:12:58] "GET /static/javascript/product_info.js HTTP/1.1" 200 1050
+[29/Oct/2023 21:12:58] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:12:59] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /images/product1.png
+[29/Oct/2023 21:13:00] "GET /images/product1.png HTTP/1.1" 404 2622   
+Not Found: /images/product1.png
+[29/Oct/2023 21:13:01] "GET /images/product1.png HTTP/1.1" 404 2622   
+Not Found: /images/product1.png
+[29/Oct/2023 21:13:01] "GET /images/product1.png HTTP/1.1" 404 2622   
+[29/Oct/2023 21:13:47] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:13:47] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:13:47] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:13:47] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:13:47] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:13:47] "GET /static/javascript/product_info.js HTTP/1.1" 200 1062
+[29/Oct/2023 21:13:47] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 21:13:51] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:13:51] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:13:51] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:13:51] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:13:51] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:13:51] "GET /static/javascript/product_info.js HTTP/1.1" 200 1062
+[29/Oct/2023 21:13:51] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:13:53] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:55] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:56] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:56] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:56] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:57] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:57] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:57] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:58] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:59] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:59] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:59] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:59] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:59] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:13:59] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:00] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:00] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:00] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:00] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:00] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:01] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:01] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:01] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:01] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:01] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:02] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:02] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:02] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:02] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:02] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:03] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:03] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:03] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:03] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:04] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:04] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:04] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:05] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:05] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:05] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:05] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:05] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:06] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:06] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:06] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:07] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:07] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:07] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:07] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:07] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:08] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:08] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:08] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:08] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:14:08] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+[29/Oct/2023 21:14:58] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:14:58] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:14:58] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:14:58] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:14:58] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:14:59] "GET /static/javascript/product_info.js HTTP/1.1" 200 863
+[29/Oct/2023 21:14:59] "GET /static/images/fv.png HTTP/1.1" 200 5856  
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:15:00] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:15:02] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:15:02] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:15:03] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:15:03] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'images/product1.png' %}
+[29/Oct/2023 21:15:03] "GET /product/%7B%%20static%20'images/product1.png'%20%%7D HTTP/1.1" 404 2735
+[29/Oct/2023 21:15:18] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:15:18] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:15:18] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:15:18] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:15:18] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:15:18] "GET /static/javascript/product_info.js HTTP/1.1" 200 863
+[29/Oct/2023 21:15:18] "GET /static/images/fv.png HTTP/1.1" 200 5856
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git commit -m "product landing page working "
+[main 6d5e80f] product landing page working
+ 13 files changed, 456 insertions(+), 9 deletions(-)
+ create mode 100644 ecom_demo/store/__pycache__/urls.cpython-311.pyc  
+ create mode 100644 ecom_demo/store/static/images/product1.png        
+ create mode 100644 ecom_demo/store/static/images/product2.png        
+ create mode 100644 ecom_demo/store/static/images/product3.png        
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git push origin main
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (26/26), 774.89 KiB | 16.84 MiB/s, done.
+Total 26 (delta 13), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (13/13), completed with 11 local objects.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   da81049..6d5e80f  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
 
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 29, 2023 - 21:16:50
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[29/Oct/2023 21:17:21] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:17:21] "GET /static/javascript/product_info.js HTTP/1.1" 200 890
+Not Found: /favicon.ico
+[29/Oct/2023 21:17:44] "GET /favicon.ico HTTP/1.1" 404 2598
+[29/Oct/2023 21:18:00] "GET /static/images/product2.png HTTP/1.1" 200 249247
+[29/Oct/2023 21:18:10] "GET /static/images/product3.png HTTP/1.1" 200 285739
+[29/Oct/2023 21:18:50] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:18:50] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:18:50] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:18:50] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:18:50] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:18:50] "GET /static/javascript/product_info.js HTTP/1.1" 200 958
+[29/Oct/2023 21:18:51] "GET /static/images/fv.png HTTP/1.1" 200 5856  
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:18:52] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/{% static 'static/images/product1.png' %}
+[29/Oct/2023 21:18:53] "GET /product/%7B%%20static%20'static/images/product1.png'%20%%7D HTTP/1.1" 404 2756
+Not Found: /product/{% static 'static/images/product1.png' %}
+[29/Oct/2023 21:18:54] "GET /product/%7B%%20static%20'static/images/product1.png'%20%%7D HTTP/1.1" 404 2756
+[29/Oct/2023 21:19:34] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:19:34] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:19:34] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:19:34] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:19:34] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:19:34] "GET /static/javascript/product_info.js HTTP/1.1" 200 1012
+[29/Oct/2023 21:19:34] "GET /static/images/fv.png HTTP/1.1" 200 5856  
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:19:36] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+Not Found: /product/static/images/product3.png
+[29/Oct/2023 21:19:36] "GET /product/static/images/product3.png HTTP/1.1" 404 2667
+Not Found: /product/static/images/product3.png
+[29/Oct/2023 21:19:37] "GET /product/static/images/product3.png HTTP/1.1" 404 2667
+Not Found: /product/static/images/product3.png
+[29/Oct/2023 21:19:57] "GET /static/javascript/product_info.js HTTP/1.1" 200 1015
+[29/Oct/2023 21:19:57] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:19:59] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+[29/Oct/2023 21:20:10] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:20:11] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:20:11] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:20:11] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:20:11] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:20:11] "GET /static/javascript/product_info.js HTTP/1.1" 200 1015
+[29/Oct/2023 21:20:11] "GET /static/images/fv.png HTTP/1.1" 200 5856
+Not Found: /product/{% static 'images/product2.png' %}
+[29/Oct/2023 21:20:12] "GET /product/%7B%%20static%20'images/product2.png'%20%%7D HTTP/1.1" 404 2735
+[29/Oct/2023 21:21:25] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:21:25] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:21:25] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:21:25] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:21:25] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:21:25] "GET /static/javascript/product_info.js HTTP/1.1" 200 1062
+[29/Oct/2023 21:21:25] "GET /static/images/fv.png HTTP/1.1" 200 5856
+[29/Oct/2023 21:22:00] "GET /product/ HTTP/1.1" 200 7882
+[29/Oct/2023 21:22:00] "GET /static/css/base_style.css HTTP/1.1" 200 1961
+[29/Oct/2023 21:22:00] "GET /static/css/product_info.css HTTP/1.1" 200 3419
+[29/Oct/2023 21:22:00] "GET /static/javascript/base_script.js HTTP/1.1" 200 249
+[29/Oct/2023 21:22:00] "GET /static/images/product1.png HTTP/1.1" 200 258841
+[29/Oct/2023 21:22:00] "GET /static/javascript/product_info.js HTTP/1.1" 200 1026
+[29/Oct/2023 21:22:00] "GET /static/images/fv.png HTTP/1.1" 200 5856
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git commit -m "product landing page fully working page code "
+[main 3d6df88] product landing page fully working page code
+ 1 file changed, 21 insertions(+), 15 deletions(-)
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git push origin main
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 766 bytes | 766.00 KiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   6d5e80f..3d6df88  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo>   
 
 
