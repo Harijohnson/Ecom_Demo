@@ -5,3 +5,9 @@ from django.shortcuts import render
 def store(request):
     context={}
     return render(request,"store/store.html",context=context)
+
+
+def product(request):
+    context={}
+    return render(request,"store/product_info.html",context=context)
+

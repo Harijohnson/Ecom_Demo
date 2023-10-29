@@ -1,0 +1,258 @@
+/* *{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+} */
+
+/* this is the conatine for whole product details */
+.container{
+    width:100%;
+    min-height: 100vh;
+    background : #d0eaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* whole product properties */
+
+.product{
+    width:90%;
+    max-width: 750px;
+    display: flex;
+
+}
+
+/* div galary backgroungd properties */
+.gallary{
+    flex-basis: 47%;
+    background :#241e20;
+    transform: scale(1.08);
+    box-shadow: -10px 5px 10px 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+
+/* image properties */
+.gallary img{
+    width:100%;
+    display:block;
+    padding-top :100px;
+}
+/* inthis design for details text placing area */
+.details{
+    flex-basis: 53% ;
+    background : #fff;
+    padding:40px;
+    padding-left:60px;
+    box-shadow: -10px 5px 10px 10px rgba(0,0,0,0.1);
+    font-size: 15px;
+    font-weight: 500;
+    color:#777;
+}
+
+.name{
+    color:#555;
+    font-size:20px;
+    margin-bottom: 13px;
+}
+.price{
+    color:#333;
+    font-size:17px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+.offer{
+    color:#00d874;
+    margin-bottom: 13px;
+}
+
+.form{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.size-select{
+    display: flex;
+    align-items:center;
+    margin-top: 20px;
+}
+
+
+.size-select p{
+    width:70px;
+}
+
+.size-select input:checked + span{
+    color:blue;
+    font-weight: 400;
+    background-color:aliceblue;
+    border-radius:50%;
+    transform: scale(1.5);
+    box-shadow:0 0 0 2px #fff ,0 0 0 4px #000;
+}
+
+.size-select input {
+    display: none;
+}
+.size-select span{
+    padding:5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+.color-select{
+    display:flex;
+    align-items:center;
+    margin-top: 15px;;
+}
+
+.color-select p{
+    width:75px;
+}
+.color-select span {
+    display: inline-block;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    margin-right:15px ;
+    cursor: pointer;
+}
+
+
+.color-1{
+    background-color: red;
+}
+.color-2{
+    background-color: green;
+}
+
+.color-3{
+    background-color: black;
+}
+
+.color-4{
+    background-color: aqua;
+}
+
+.color-select input{
+    display:none;
+}
+
+.color-select input:checked + span {
+    transform: scale(0.7);
+    box-shadow:0 0 0 4px #fff ,0 0 0 6px #000;
+}
+
+
+
+.quantity-select{
+    display :flex;
+    align-items:center;
+    margin-top: 15px;
+}
+
+.quantity-select p{
+    width:75px;
+}
+
+.quantity-select input {
+    background :#eee;
+    border:0;
+    outline: 0;
+    padding: 2px 2px 2px 15px;
+    width:50px;
+    border-radius:12px;
+}
+
+
+form button {
+    background: #553ff0;
+    color:#fff;
+    font-size: 17px;
+    width:100%;
+    padding:10px;
+    border-radius : 30px;
+    border:0;
+    outline: 0;
+    margin-top: 50px;
+    box-shadow:0 10px 10px rgba(85,63,249,0.25);
+    cursor: pointer;
+
+
+}
+
+
+
+
+.controls{
+    position: absolute;
+    bottom: 40px;
+    right:20px
+}
+
+
+.btn {
+    display:block;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    margin:10px;
+    cursor: pointer;
+
+}
+
+.btn.active{
+    background: #553ff0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

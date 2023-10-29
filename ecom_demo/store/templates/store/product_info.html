@@ -2,13 +2,104 @@
 <html lang="en">
 <head>
     {%extends 'store/base.html' %}
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Store</title>
 </head>
 <body>
-
     {% block content %}
+        <div class="container">
+            <div class="product">
+                <div class="gallary">
+                    <img src="{% static 'images/product1.png' %}" alt="product1.png" id="productImg">
+                    <div class="controls">
+                        <span class="btn active"></span>
+                        <span class="btn"></span>
+                        <span class="btn"></span>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="name">
+                        <h1>Casual T Shirt</h1>
+                    </div>
+                    <div class="price">
+                        <h2>$17.00</h2>
+                    </div>
+                    <div class="offer">
+                        <h3>10% OFF</h3>
+                    </div>
+                    <div class="discription">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Placeat doloremque quam dolorem dicta porro, 
+                            fugit dolores vero totam accusantium ea sequi.
+                                
+                        </p>
+                    </div>
+                    <div class="form">
+                        <form action="POST">
+                            <div class="size-select">
+                                <p>Size</p>
+                                <label for="small">
+                                    <input type="radio" name="size" id="small">
+                                    <span>S</span>
+                                </label>
+                                <label for="medium">
+                                    <input type="radio" name="size" id="medium">
+                                    <span>M</span>
+                                </label>
+                                <label for="large">
+                                    <input type="radio" name="size" id="large">
+                                    <span>X</span>
+                                </label>
+                                <label for="extra-large">
+                                    <input type="radio" name="size" id="extra-large">
+                                    <span>XL</span>
+                                </label>
+                                <label for="extra-extra-large">
+                                    <input type="radio" name="size" id="extra-extra-large">
+                                    <span>XXL</span>
+                                </label>
+                            </div>
+
+                            <div class="color-select">
+                                <p>Color</p>
+                                <label for="red">
+                                    <input type="radio" name="color" id="red">
+                                    <span class="color-1"></span>
+                                </label>
+                                <label for="green">
+                                    <input type="radio" name="color" id="green">
+                                    <span class="color-2"></span>
+                                </label>
+                                <label for="black">
+                                    <input type="radio" name="color" id="black">
+                                    <span class="color-3"></span>
+                                </label>
+                                <label for="aqua">
+                                    <input type="radio" name="color" id="aqua">
+                                    <span class="color-4"></span>
+                                </label>
+                            </div>
+
+                            <div class="quantity-select">
+                                <p>
+                                    Quantity
+                                </p>
+                                <input type="number" value="1">
+                            </div>
+                            <button type="submit">Buy Now</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
 
     {% endblock content %}
 </body>
