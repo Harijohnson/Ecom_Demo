@@ -5,7 +5,7 @@
 }
 body{
     min-height: 100vh;    /*  set the height of the body   */
-    /*background-image: url('../images/bg.jpg'); */ /*background image url  */
+    background-image: url('../images/bg.jpg');  /*background image url  */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
