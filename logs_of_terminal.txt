@@ -679,6 +679,103 @@ Quit the server with CTRL-BREAK.
 [29/Oct/2023 09:01:24] "GET / HTTP/1.1" 200 10664
 [29/Oct/2023 09:01:30] "GET / HTTP/1.1" 200 10664
 
+[29/Oct/2023 09:01:24] "GET / HTTP/1.1" 200 10664
+[29/Oct/2023 09:01:30] "GET / HTTP/1.1" 200 10664
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git commit -m "log file is added"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../logs_of_terminal.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add logs_of_terminal.txt
+fatal: pathspec 'logs_of_terminal.txt' did not match any files
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> git add logs_of_terminal.txt
+fatal: pathspec 'logs_of_terminal.txt' did not match any files
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo> cd ..
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git add logs_of_terminal.txt
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git commit -m "logs of terminal is add for futer references "
+[main 7679e11] logs of terminal is add for futer references
+ 1 file changed, 928 insertions(+)
+ create mode 100644 logs_of_terminal.txt
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 8.47 KiB | 4.23 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   8ed91a4..7679e11  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> pip freeze > requirements.txt
+Fatal error in launcher: Unable to create process using '"C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\my_env\Scripts\python.exe"  "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\my_env\Scripts\pip.exe" freeze': The system cannot find the file specified.
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> python -m pip freeze > requirements.txt
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git status
+On branch main
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   requirements.txt
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git commit "tequirements.txt file is add to the git"
+error: pathspec 'tequirements.txt file is add to the git' did not match any file(s) known to git
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git add requirements.txt
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git commit -m "requirements.txt file is add to the git repo" 
+[main e61b074] requirements.txt file is add to the git repo
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 requirements.txt
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git push origin main
+To https://github.com/Harijohnson/Ecom_Demo.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Harijohnson/Ecom_Demo.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git pull origin main
+From https://github.com/Harijohnson/Ecom_Demo
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ logs_of_terminal.txt | 245 +--------------------------------------------------
+ 1 file changed, 1 insertion(+), 244 deletions(-)
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git add requirements.txt
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git commit -m "requirements.txt file is add to the git repo" 
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git pull origin main    
+From https://github.com/Harijohnson/Ecom_Demo
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo> git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 685 bytes | 685.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   e4e8adf..dd575d3  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo>
+
+
 
 
 
