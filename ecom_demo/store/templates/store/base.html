@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type='text/css' href="{% static 'css/base_style.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'images/fv.png' %}" type="image/x-icon">
+    <title>Ecom</title>
+</head>
+<body>
+    <nav>
+        <!-- mobile view navbar  -->
+        <ul class="sidebar">
+            <li onclick=closeMenuBar() id="col"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"> <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li ><a href="#">Product</a></li>
+            <li ><a href="#">Paintings</a></li>
+            <li ><a href="#">
+                <form action="#">
+                    <input type="search" id="gsearch" name="gsearch">
+                    <input type="submit">
+              </form></a></li>
+            <li id="col"><a href="#">Login</a></li>
+        </ul>
+        <!-- desktop view navbar -->
+        <ul>
+            <li><a>Termic</a></li>
+            <li><a class="hideOnMobile">Product</a></li>
+            <li><a  class="hideOnMobile">Paintings</a></li>
+            <li class="hideOnMobile"><a href="#"><form action="#">
+                <input type="search" id="gsearch" name="gsearch">
+                <input type="submit">
+              </form></a></li>
+            <li><a href="#" class="hideOnMobile">Login</a></li>
+            <li onclick=showSidebar() class="menu-button"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                 viewBox="0 -960 960 960" width="26">
+                 <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+
+
+
+
+
+
+
+
+    {% block content %}
+    {% endblock content %}
+
+    <script src="{% static 'javascript/base_script.js' %}"></script>
+    
+</body>
+</html>
