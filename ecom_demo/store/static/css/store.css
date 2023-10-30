@@ -267,8 +267,17 @@
     padding-bottom: 20px;
 }
 
+.end-text{
+    background-color:#edfff1;
+    text-align: center;
+    padding:20px;
 
+}
 
+.end-text p{
+    color:#111;
+    text-transform: capitalize;
+}
 
 
 

@@ -242,11 +242,22 @@ header.sticky{
     transition:all .42s;
 }
 
+.contact-info p:hover{
+    color:#EE1c47;
+}
 
 
 
+.social-icon i{
+    color:#565656;
+    margin-right:10px;
+    font-size: 20px;
+    transition: all .42s;
+}
 
-
+.social-icon i:hover{
+    transform:scale(1.3) ;
+}
 
 
 
