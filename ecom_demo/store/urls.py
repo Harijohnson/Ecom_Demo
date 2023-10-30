@@ -22,9 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("",views.store,name='store'),   # redirecting to the views function named store
     path('product/',views.product,name='product'), # redirecting to product page
-
-
-
-
+    path('login/', views.login, name='login'),
+    path('signup/', views.signup, name='signup'),
+    path('signout/', views.signout, name='signout'),
 
 ]

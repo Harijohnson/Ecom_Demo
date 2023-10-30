@@ -9,7 +9,7 @@ let btn = document.getElementsByClassName('btn');
 // console.log(productImg.src)
 btn[0].onclick = function (){
     // productImg.src ="{% static 'static/images/product1.png' %}";  this is not working in js
-    productImg.src ="../static/images/product1.png";  // this is working in js 
+    productImg.src ="../static/images/products/product1.png";  // this is working in js 
     for (bt of btn) {
         bt.classList.remove('active');
     }
@@ -17,7 +17,7 @@ btn[0].onclick = function (){
 
 }
 btn[1].onclick = function (){
-    productImg.src ="../static/images/product2.png";
+    productImg.src ="../static/images/products/product2.png";
     for (bt of btn) {
         bt.classList.remove('active');
     }
@@ -25,7 +25,7 @@ btn[1].onclick = function (){
 }
 
 btn[2].onclick = function (){
-    productImg.src ="../static/images/product3.png";
+    productImg.src ="../static/images/products/product3.png";
     for (bt of btn) {
         bt.classList.remove('active');
     }
