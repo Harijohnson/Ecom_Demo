@@ -3,12 +3,12 @@
 <head>
     {% load static %}
     <meta charset="UTF-8">
-    <link rel="stylesheet" type='text/css' href="{% static 'css/base_style.css' %}">
-    <link rel="stylesheet" type='text/css' href="{% static 'css/home.css' %}"> 
-     <link rel="stylesheet" type='text/css' href="{% static 'css/product_info.css' %}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="{% static 'images/fv.png' %}" type="image/x-icon">
     <title>Ecom</title>
+    <link rel="stylesheet" type='text/css' href="{% static 'css/base_style.css' %}">
+    <link rel="stylesheet" type='text/css' href="{% static 'css/store.css' %}"> 
+    <link rel="stylesheet" type='text/css' href="{% static 'css/product_info.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'images/base/fv.png' %}" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;600;700&family=Roboto:wght@100&family=Vibes&display=swap" rel="stylesheet">
@@ -90,7 +90,7 @@
 
 
     <header>
-        <a href="#" class="logo"> <img src="{% static 'images/logo_1.png' %}" alt="logo"></a>
+        <a href="#" class="logo"> <img src="{% static 'images/base/logo_1.png' %}" alt="logo"></a>
         <ul class="navmenu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Shop</a></li>
@@ -211,7 +211,8 @@
     {% block content %}
     {% endblock content %}
 
-    <!-- <script src="{% static 'javascript/base_script.js' %}"></script>
-    <script src="{% static 'javascript/product_info.js' %}"></script> -->
+    <script src="{% static 'javascript/base_script.js' %}"></script> 
+    <!-- <script src="{% static 'javascript/product_info.js' %}"></script> --> -->
+    <script src="{% static 'javascript/store.js' %}"></script>
 </body>
 </html>
