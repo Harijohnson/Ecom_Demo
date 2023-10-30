@@ -2,12 +2,211 @@
 <html lang="en">
 <head>
     {%extends 'store/base.html' %}
+    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
     {% block content %}
+        <section class="main-home">
+            <div class="main-text">
+                <h5>Winter Collection</h5>
+                <h1>New Winter <br>  Collections 2023</h1>
+                <p>There's nothing like Trend</p>
+
+
+                <a href="#" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+
+
+
+            <div class="down-arrow">
+                <a href="#trending" class="down"><i class='bx bx-down-arrow-alt'></i></a>
+            </div>
+
+        </section>
+
+
+        <!-- trending-product-section -->
+        <section class="trending-product" id="trending">
+            <div class="center-text">
+                <h2>Our Trending <span>Products</span></h2>
+            </div>
+
+            <div class="products">
+                <div class="row">
+                    <img src="{%static 'images/products/1.jpg' %}" alt="Product_1">
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="hert-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Full Casual</h4>
+                        <p>$99 - $150</p>
+                    </div>    
+                </div>
+            <!-- new section are looped here -->
+
+                <div class="row">
+                    <img src="{%static 'images/products/2.jpg' %}" alt="Product_1">
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="hert-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Full Casual</h4>
+                        <p>$99 - $150</p>
+                    </div>    
+                </div>
+
+                <div class="row">
+                    <img src="{%static 'images/products/3.jpg' %}" alt="Product_1">
+                    <div class="product-text">
+                        <h5>Hot</h5>
+                    </div>
+                    <div class="hert-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Half Play</h4>
+                        <p>$56 - $150</p>
+                    </div>    
+                </div>
+
+                <div class="row">
+                    <img src="{%static 'images/products/4.jpg' %}" alt="Product_1">
+                    <div class="product-text">
+                        <h5>Best Choise</h5>
+                    </div>
+                    <div class="hert-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Runner</h4>
+                        <p>$99 - $150</p>
+                    </div>    
+                </div>
+
+                <div class="row">
+                    <img src="{%static 'images/products/5.jpg' %}" alt="Product_1">
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="hert-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Cooler</h4>
+                        <p>$99 - $150</p>
+                    </div>    
+                </div>
+
+                <div class="row">
+                    <img src="{%static 'images/products/6.jpg' %}" alt="Product_1">
+                    <div class="product-text">
+                        <h5>Best Choise</h5>
+                    </div>
+                    <div class="hert-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Fasion Cooler</h4>
+                        <p>$99 - $150</p>
+                    </div>    
+                </div>
+
+                <div class="row">
+                    <img src="{%static 'images/products/7.jpg' %}" alt="Product_1">
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="hert-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Casual</h4>
+                        <p>$99 - $150</p>
+                    </div>    
+                </div>
+
+                <div class="row">
+                    <img src="{%static 'images/products/8.jpg' %}" alt="Product_1">
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="hert-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Color Coller</h4>
+                        <p>$15 - $250</p>
+                    </div>    
+                </div>
+
+            </div>
+
+        </section>
+
+
 
     {% endblock content %}
 </body>
