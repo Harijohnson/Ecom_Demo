@@ -200,22 +200,47 @@ header.sticky{
 
 
 
+/* contact setion css */
+
+.contact{
+    background-color: #f3f4f6;
+    padding-left: 10px;
+    padding-right: 10px;
 
 
+}
+.contact-info{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px,auto));
+    gap:3rem;    
+}
 
 
+.first-info img{
+    width:140px;
+    height:auto;
+}
 
 
+.contact-info h4{
+    color:#212529;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
 
 
-
-
-
-
-
-
-
-
+.contact-info p{
+    color:#212529;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition:all .42s;
+}
 
 
 
