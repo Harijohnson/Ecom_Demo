@@ -18,12 +18,10 @@ from django.contrib import admin
 from django.urls import path
 from store import views
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path("",views.store,name='store'),   # redirecting to the views function named store
+urlpatterns = [   
+    path("store/",views.store,name='store'),# redirecting to the views function named store
     path('product/',views.product,name='product'), # redirecting to product page
     path('login/', views.login, name='login'),
-    path('signup/', views.signup, name='signup'),
-    path('signout/', views.signout, name='signout'),
+    path('signup/', views.login, name='signup'),
 
 ]
