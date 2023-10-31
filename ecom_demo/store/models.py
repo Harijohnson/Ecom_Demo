@@ -6,8 +6,6 @@ class user_info(models.Model):
     email=models.EmailField(primary_key=True)
     password=models.CharField(max_length=50)
 
-    def __str__():
-        username= username
-        email = email
-        password = password
+    def __str__(self):
+       return self.email
         
