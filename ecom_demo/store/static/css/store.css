@@ -353,6 +353,9 @@ form p{
     display: none;
     
 }
+form #con-btn{
+    display:flex;
+}
 
 form p a{
     text-decoration:none;
