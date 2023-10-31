@@ -1550,3 +1550,607 @@ Quit the server with CTRL-BREAK.
 [29/Oct/2023 21:27:55] "GET /static/images/bg.jpg HTTP/1.1" 200 120537
 [29/Oct/2023 21:27:55] "GET /static/images/fv.png HTTP/1.1" 200 5856
 (my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_demo\ecom_demo>
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 13:31:54
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store.views.login didn't return an HttpResponse object. It returned None instead.
+[31/Oct/2023 13:31:57] "GET /login/ HTTP/1.1" 500 69208
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store.views.login didn't return an HttpResponse object. It returned None instead.
+[31/Oct/2023 13:31:58] "GET /login/ HTTP/1.1" 500 69208
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store.views.login didn't return an HttpResponse object. It returned None instead.
+[31/Oct/2023 13:31:58] "GET /login/ HTTP/1.1" 500 69208
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store.views.login didn't return an HttpResponse object. It returned None instead.
+[31/Oct/2023 13:31:58] "GET /login/ HTTP/1.1" 500 69208
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store.views.login didn't return an HttpResponse object. It returned None instead.
+[31/Oct/2023 13:31:58] "GET /login/ HTTP/1.1" 500 69208
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store.views.login didn't return an HttpResponse object. It returned None instead.
+[31/Oct/2023 13:31:59] "GET /login/ HTTP/1.1" 500 69208
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store.views.login didn't return an HttpResponse object. It returned None instead.
+[31/Oct/2023 13:32:00] "GET /login/ HTTP/1.1" 500 69336
+Not Found: /favicon.ico
+[31/Oct/2023 13:32:00] "GET /favicon.ico HTTP/1.1" 404 3105
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> n in views.py file'
+>> git commit -m "lots of bugs in logi ^C
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git commit -m "logi lots of bugs in login views.py "  
+[main b564362] logi lots of bugs in login views.py
+ 5 files changed, 119 insertions(+), 24 deletions(-)
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git push origin main
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (14/14), 3.39 KiB | 1.70 MiB/s, done.
+Total 14 (delta 10), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (10/10), completed with 10 local objects.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   54f472c..b564362  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py runserver                        
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:05:35
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[31/Oct/2023 16:06:52] "GET / HTTP/1.1" 200 17813
+[31/Oct/2023 16:06:52] "GET /static/css/base_style.css HTTP/1.1" 304 0
+[31/Oct/2023 16:06:52] "GET /static/javascript/base_script.js HTTP/1.1" 304 0
+[31/Oct/2023 16:06:52] "GET /static/css/product_info.css HTTP/1.1" 304 0
+[31/Oct/2023 16:06:52] "GET /static/images/base/logo_1.png HTTP/1.1" 304 0
+[31/Oct/2023 16:06:52] "GET /static/images/products/2.jpg HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/1.jpg HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/css/store.css HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/3.jpg HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/5.jpg HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/javascript/store.js HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/6.jpg HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/4.jpg HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/7.jpg HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/hari_1.jpg HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/bl-1.png HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/bl-2.png HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/8.jpg HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/bl-3.png HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/products/banner-3.png HTTP/1.1" 304 0
+[31/Oct/2023 16:06:53] "GET /static/images/base/fv.png HTTP/1.1" 304 0
+[31/Oct/2023 16:06:56] "GET / HTTP/1.1" 200 17813
+[31/Oct/2023 16:06:59] "GET /login/ HTTP/1.1" 200 6974
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:07:16
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+[31/Oct/2023 16:07:16] "GET /login/ HTTP/1.1" 200 6974
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:07:24
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+[31/Oct/2023 16:07:25] "GET /login/ HTTP/1.1" 200 6974
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:07:39
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:07:45
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+[31/Oct/2023 16:07:50] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:07:52] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:07:52] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:07:53] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:07:54] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:07:54] "GET /static/images/base/logo_1.png HTTP/1.1" 200 38317
+[31/Oct/2023 16:07:54] "GET /static/css/store.css HTTP/1.1" 200 6066  
+[31/Oct/2023 16:07:54] "GET /static/javascript/store.js HTTP/1.1" 200 2684
+[31/Oct/2023 16:07:54] "GET /static/css/product_info.css HTTP/1.1" 200 3423
+[31/Oct/2023 16:07:54] "GET /static/javascript/base_script.js HTTP/1.1" 200 993
+[31/Oct/2023 16:07:54] "GET /static/css/base_style.css HTTP/1.1" 200 5472
+[31/Oct/2023 16:07:54] "GET /static/images/base/fv.png HTTP/1.1" 200 5856
+[31/Oct/2023 16:07:55] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:07:55] "GET /static/css/base_style.css HTTP/1.1" 200 5472
+[31/Oct/2023 16:07:55] "GET /static/css/store.css HTTP/1.1" 200 6066  
+[31/Oct/2023 16:07:55] "GET /static/css/product_info.css HTTP/1.1" 200 3423
+[31/Oct/2023 16:07:55] "GET /static/javascript/base_script.js HTTP/1.1" 200 993
+[31/Oct/2023 16:07:55] "GET /static/images/base/logo_1.png HTTP/1.1" 200 38317
+[31/Oct/2023 16:07:55] "GET /static/javascript/store.js HTTP/1.1" 200 2684
+[31/Oct/2023 16:07:55] "GET /static/images/base/fv.png HTTP/1.1" 200 5856
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:08:02
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+[31/Oct/2023 16:08:08] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:09] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:12] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:12] "GET /static/css/store.css HTTP/1.1" 200 6066  
+[31/Oct/2023 16:08:12] "GET /static/css/base_style.css HTTP/1.1" 200 5472
+[31/Oct/2023 16:08:12] "GET /static/images/base/logo_1.png HTTP/1.1" 200 38317
+[31/Oct/2023 16:08:12] "GET /static/css/product_info.css HTTP/1.1" 200 3423
+[31/Oct/2023 16:08:12] "GET /static/javascript/store.js HTTP/1.1" 200 2684
+[31/Oct/2023 16:08:12] "GET /static/javascript/base_script.js HTTP/1.1" 200 993
+[31/Oct/2023 16:08:12] "GET /static/images/base/fv.png HTTP/1.1" 200 5856
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:08:22
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+[31/Oct/2023 16:08:23] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:23] "GET /static/css/product_info.css HTTP/1.1" 200 3423
+[31/Oct/2023 16:08:23] "GET /static/css/base_style.css HTTP/1.1" 200 5472
+[31/Oct/2023 16:08:23] "GET /static/css/store.css HTTP/1.1" 200 6066  
+[31/Oct/2023 16:08:23] "GET /static/images/base/logo_1.png HTTP/1.1" 200 38317
+[31/Oct/2023 16:08:23] "GET /static/javascript/base_script.js HTTP/1.1" 200 993
+[31/Oct/2023 16:08:23] "GET /static/javascript/store.js HTTP/1.1" 200 2684
+[31/Oct/2023 16:08:23] "GET /static/images/base/fv.png HTTP/1.1" 200 5856
+[31/Oct/2023 16:08:24] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:24] "GET /static/css/base_style.css HTTP/1.1" 200 5472
+[31/Oct/2023 16:08:24] "GET /static/css/store.css HTTP/1.1" 200 6066  
+[31/Oct/2023 16:08:24] "GET /static/css/product_info.css HTTP/1.1" 200 3423
+[31/Oct/2023 16:08:24] "GET /static/javascript/base_script.js HTTP/1.1" 200 993
+[31/Oct/2023 16:08:24] "GET /static/images/base/logo_1.png HTTP/1.1" 200 38317
+[31/Oct/2023 16:08:24] "GET /static/javascript/store.js HTTP/1.1" 200 2684
+[31/Oct/2023 16:08:24] "GET /static/images/base/fv.png HTTP/1.1" 200 5856
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:08:31
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+[31/Oct/2023 16:08:31] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:32] "GET /login/ HTTP/1.1" 200 6974
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:08:37
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+[31/Oct/2023 16:08:38] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:38] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:39] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:40] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:41] "GET /static/css/base_style.css HTTP/1.1" 200 5472
+[31/Oct/2023 16:08:41] "GET /static/css/product_info.css HTTP/1.1" 200 3423
+[31/Oct/2023 16:08:41] "GET /static/javascript/base_script.js HTTP/1.1" 200 993
+[31/Oct/2023 16:08:41] "GET /static/images/base/logo_1.png HTTP/1.1" 200 38317
+[31/Oct/2023 16:08:41] "GET /static/css/store.css HTTP/1.1" 200 6066  
+[31/Oct/2023 16:08:41] "GET /static/javascript/store.js HTTP/1.1" 200 2684
+[31/Oct/2023 16:08:41] "GET /static/images/base/fv.png HTTP/1.1" 200 5856
+[31/Oct/2023 16:08:41] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:41] "GET /static/css/store.css HTTP/1.1" 200 6066  
+[31/Oct/2023 16:08:41] "GET /static/css/base_style.css HTTP/1.1" 200 5472
+[31/Oct/2023 16:08:41] "GET /static/css/product_info.css HTTP/1.1" 200 3423
+[31/Oct/2023 16:08:41] "GET /static/javascript/base_script.js HTTP/1.1" 200 993
+[31/Oct/2023 16:08:41] "GET /static/images/base/logo_1.png HTTP/1.1" 200 38317
+[31/Oct/2023 16:08:41] "GET /static/javascript/store.js HTTP/1.1" 200 2684
+[31/Oct/2023 16:08:41] "GET /static/images/base/fv.png HTTP/1.1" 200 5856
+[31/Oct/2023 16:08:42] "GET /login/ HTTP/1.1" 200 6974
+[31/Oct/2023 16:08:42] "GET /static/css/store.css HTTP/1.1" 200 6066  
+[31/Oct/2023 16:08:42] "GET /static/css/base_style.css HTTP/1.1" 200 5472
+[31/Oct/2023 16:08:42] "GET /static/css/product_info.css HTTP/1.1" 200 3423
+[31/Oct/2023 16:08:42] "GET /static/images/base/logo_1.png HTTP/1.1" 200 38317
+[31/Oct/2023 16:08:42] "GET /static/javascript/base_script.js HTTP/1.1" 200 993
+[31/Oct/2023 16:08:42] "GET /static/javascript/store.js HTTP/1.1" 200 2684
+[31/Oct/2023 16:08:42] "GET /static/images/base/fv.png HTTP/1.1" 200 5856
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:08:59
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+Internal Server Error: /login/
+Traceback (most recent call last): 
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view store.views.login didn't return an HttpResponse object. It returned None instead.   
+[31/Oct/2023 16:09:01] "GET /login/ HTTP/1.1" 500 69359
+Not Found: /favicon.ico
+[31/Oct/2023 16:09:02] "GET /favicon.ico HTTP/1.1" 404 3105
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:09:08
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+[31/Oct/2023 16:09:08] "GET /login/ HTTP/1.1" 200 6974
+Not Found: /store
+[31/Oct/2023 16:10:05] "POST /store HTTP/1.1" 404 3088
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:10:51
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.   
+
+Internal Server Error: /store
+Traceback (most recent call last): 
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__      
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                   
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/store/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[31/Oct/2023 16:10:55] "POST /store HTTP/1.1" 500 74815
+Internal Server Error: /store
+Traceback (most recent call last): 
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__      
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                   
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/store/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[31/Oct/2023 16:17:09] "POST /store HTTP/1.1" 500 74815
+Internal Server Error: /store
+Traceback (most recent call last): 
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__      
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                   
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/store/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[31/Oct/2023 16:17:33] "POST /store HTTP/1.1" 500 74807
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...        
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W005) URL namespace 'admin' isn't unique. You may not be able to reverse all URLs in this namespace
+
+System check identified 1 issue (0 silenced).
+October 31, 2023 - 16:18:39
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+
+Not Found: /store
+[31/Oct/2023 16:18:43] "POST /store HTTP/1.1" 404 3088
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2023 - 16:19:09
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Not Found: /store
+[31/Oct/2023 16:19:16] "POST /store HTTP/1.1" 404 2935
+[31/Oct/2023 16:21:17] "GET / HTTP/1.1" 200 17813
+Not Found: /base
+[31/Oct/2023 16:21:28] "GET /base HTTP/1.1" 404 2931
+Not Found: /home/home
+[31/Oct/2023 16:21:32] "GET /home/home HTTP/1.1" 404 2946
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2023 - 16:22:17
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2023 - 16:22:53
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2023 - 16:23:32
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Not Found: /home/home
+[31/Oct/2023 16:23:37] "GET /home/home HTTP/1.1" 404 3111
+Not Found: /home/home
+[31/Oct/2023 16:23:38] "GET /home/home HTTP/1.1" 404 3111
+Not Found: /base
+[31/Oct/2023 16:23:40] "GET /base HTTP/1.1" 404 3096
+Not Found: /favicon.ico
+[31/Oct/2023 16:23:40] "GET /favicon.ico HTTP/1.1" 404 3117
+[31/Oct/2023 16:23:43] "GET / HTTP/1.1" 200 17813
+[31/Oct/2023 16:23:43] "GET / HTTP/1.1" 200 17813
+[31/Oct/2023 16:23:44] "GET /static/css/product_info.css HTTP/1.1" 200 3423
+[31/Oct/2023 16:23:44] "GET /static/images/products/3.jpg HTTP/1.1" 200 70750
+[31/Oct/2023 16:23:44] "GET /static/css/store.css HTTP/1.1" 200 6066
+[31/Oct/2023 16:23:44] "GET /static/css/base_style.css HTTP/1.1" 200 5472
+[31/Oct/2023 16:23:44] "GET /static/images/base/logo_1.png HTTP/1.1" 200 38317
+[31/Oct/2023 16:23:44] "GET /static/javascript/base_script.js HTTP/1.1" 200 993
+[31/Oct/2023 16:23:44] "GET /static/javascript/store.js HTTP/1.1" 200 2684
+[31/Oct/2023 16:23:44] "GET /static/images/products/4.jpg HTTP/1.1" 200 61680
+[31/Oct/2023 16:23:44] "GET /static/images/products/5.jpg HTTP/1.1" 200 45794
+[31/Oct/2023 16:23:44] "GET /static/images/products/6.jpg HTTP/1.1" 200 23139
+[31/Oct/2023 16:23:44] "GET /static/images/products/1.jpg HTTP/1.1" 200 81920
+[31/Oct/2023 16:23:44] "GET /static/images/products/7.jpg HTTP/1.1" 200 44352
+[31/Oct/2023 16:23:44] "GET /static/images/products/8.jpg HTTP/1.1" 200 46785
+[31/Oct/2023 16:23:44] "GET /static/images/products/hari_1.jpg HTTP/1.1" 200 44257
+[31/Oct/2023 16:23:44] "GET /static/images/products/2.jpg HTTP/1.1" 200 70204
+[31/Oct/2023 16:23:44] "GET /static/images/products/bl-3.png HTTP/1.1" 200 282616
+[31/Oct/2023 16:23:44] "GET /static/images/products/bl-1.png HTTP/1.1" 200 229277
+[31/Oct/2023 16:23:44] "GET /static/images/products/bl-2.png HTTP/1.1" 200 187271
+[31/Oct/2023 16:23:45] "GET /static/images/products/banner-3.png HTTP/1.1" 200 217412
+[31/Oct/2023 16:23:45] "GET /static/images/base/fv.png HTTP/1.1" 200 5856
+[31/Oct/2023 16:23:48] "GET /login/ HTTP/1.1" 200 6974
+Not Found: /store
+[31/Oct/2023 16:27:32] "POST /store HTTP/1.1" 404 3100
+Not Found: /favicon.ico
+[31/Oct/2023 16:27:32] "GET /favicon.ico HTTP/1.1" 404 3117
+Not Found: /store
+[31/Oct/2023 16:27:36] "POST /store HTTP/1.1" 404 3100
+[31/Oct/2023 16:28:15] "GET /product/ HTTP/1.1" 200 9450
+[31/Oct/2023 16:28:15] "GET /static/images/product/product1.png HTTP/1.1" 404 1840
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2023 - 16:33:53
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2023 - 16:34:29
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2023 - 16:34:57
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2023 - 16:36:21
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py makemigrations
+Migrations for 'store':
+  store\migrations\0001_initial.py
+    - Create model user
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py makemigrations
+Migrations for 'store':
+  store\migrations\0002_remove_user_id_alter_user_email.py
+    - Remove field id from user
+    - Alter field email on user
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py migrate       
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions, store
+Running migrations:
+  Applying store.0001_initial... OK
+  Applying store.0002_remove_user_id_alter_user_email... OK
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo>
+
