@@ -12,7 +12,7 @@
     <div class="container-login">
         <div class="form-box">
             <h1 id="title">Login</h1>
-            <form action="{% url 'store' %}" method="POST">
+             <form  method="post">    <!-- action="{% url 'store' %}"      this not suppose to redirect   backed pythen have to redirect  -->
                 {% csrf_token %}  
                 <div class="input-group">
 
@@ -28,17 +28,13 @@
                     <p class="forgotPass"> <a href="#">Forgot Password </a></p>
                 </div>
                 <div class="btn-field-login" >
-                    {{form }}
-                    <!-- <button type="button" id="signupBtn" >Sign up</button> -->
-                    <button type="submit" id="signinBtn" class="disable">Login</button>
+                    <!-- <button type="button" id="signupBtn" >Sign up</button>  -->
+                    <button type="submit">Login</button>
                 </div>
             </form>
 
         </div>
     </div>
-
-
-
     {% endblock %}
 </body>
 </html>

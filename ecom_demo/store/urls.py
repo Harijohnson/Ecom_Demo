@@ -19,7 +19,7 @@ from django.urls import path
 from store import views
 
 urlpatterns = [   
-    path("store/",views.store,name='store'),# redirecting to the views function named store
+    path("",views.store,name='store'),# redirecting to the views function named store
     path('product/',views.product,name='product'), # redirecting to product page
     path('login/', views.login, name='login'),
     path('signin/', views.signin, name='signin'),
