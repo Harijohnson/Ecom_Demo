@@ -2154,3 +2154,177 @@ Running migrations:
   Applying store.0002_remove_user_id_alter_user_email... OK
 (my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi
+
+You can very well customize the authentication system. Please go through the following steps:
+
+Steps:
+
+Create your own user table like… and add this in models.py file of your app.
+class UserData(models.Model): 
+ """ 
+ This class saves the user id along with the Address 
+ """ 
+ 
+ userid = models.CharField(max_length=10, primary_key=True) 
+ username = models.CharField(max_length=50) 
+By default Django authenticates the user using the authenticate method of
+django.contrib.auth.authenticate  
+Since you have your own UserData table you can override the way django authenticates user by creating your own authentication system.
+
+To do this create a backends.py  file in your app and put two methods authenticate and get_user.
+
+from django.contrib.auth.models import User 
+from .models import UserData 
+ 
+class MyBackEnd(object): 
+ """ 
+ This is the custom backend to authenticate the user in the DB. 
+ if this authentication fais then django default authentication  will get called 
+ """ 
+ 
+ def authenticate(self, userid, password=None): 
+ """ 
+ :param username: Username of the user 
+ :param password: Password of the user 
+ :return: 
+ """ 
+ #check is user is present in User DB. 
+  existing_user = User.objects.get(username=userid) 
+  if not existing_user: 
+   #Checking the user UserData Custom DB. 
+   user_data = UserData.objects.get(userid=userid) 
+   print("...%s...." % user_data) 
+   if userid == user_data.userid: 
+    user =  User.objects.create_user(username=userid,password=12345) 
+    user.save() 
+    return user 
+   else: 
+    return None 
+  else: 
+   return existing_user 
+ 
+ def get_user(self, user_id): 
+ try: 
+  return User.objects.get(username=user_id) 
+ except User.DoesNotExist: 
+  return None 
+Now make the following entry in settings.py file
+
+DEBUG = True 
+ 
+ALLOWED_HOSTS = [] 
+ 
+AUTHENTICATION_BACKENDS = ('loadmap.backends.MyBackEnd', 'django.contrib.auth.backends.ModelBackend') 
+ 
+# Application definition 
+Put both the backends, django tries to authenticate from second backend if it fails from the first one.
+
+Do the following entry in your app urls.py file
+
+from django.conf.urls import url 
+from django.contrib.auth import views as auth_views 
+ 
+from . import views 
+ 
+app_name='loadmap' 
+ 
+urlpatterns = [url('login/$', auth_views.login, name='login'), 
+              .....] 
+Just map the url to auth views login, this will search for default registration/login.html page. Create the registration folder in your app and paste the below code in login.html file
+
+{% extends "admin/base.html" %} 
+ 
+{% block content %} 
+ 
+{% if form.errors %} 
+<p>Your username and password didn't match. Please try again.</p> 
+{% endif %} 
+ 
+{% if next %} 
+ {% if user.is_authenticated %} 
+ <p>Your account doesn't have access to this page. To proceed, 
+ please login with an account that has access.</p> 
+ {% else %} 
+ <p>Please login to see this page.</p> 
+ {% endif %} 
+{% endif %} 
+ 
+<form method="post" action="{% url 'loadmap:show_map' %}"> 
+{% csrf_token %} 
+<table> 
+<tr> 
+ <td>{{ form.username.label_tag }}</td> 
+ <td>{{ form.username }}</td> 
+</tr> 
+<tr> 
+ <td>{{ form.password.label_tag }}</td> 
+ <td>{{ form.password }}</td> 
+</tr> 
+</table> 
+ 
+<input type="submit" value="login" /> 
+<input type="hidden" name="next" value="{{ next }}" /> 
+</form> 
+ 
+{# Assumes you setup the password_reset view in your URLconf #} 
+<p><a href="{% url 'loadmap:password_reset' %}">Lost password?</a></p> 
+ 
+{% endblock %} 
+Paste the following code in views.py  
+
+from django.shortcuts import render 
+from .models import UserData 
+from django.contrib.auth.decorators import login_required 
+from django.contrib.auth import authenticate, login, logout 
+ 
+def show_map(request): 
+ """ 
+ :return: 
+ """ 
+ user = authenticate(userid=request.POST.get('username')) 
+ if user is not None and user.is_active: 
+  login(request, user) 
+  return render(request, 'loadmap/loadmap.html') 
+ else: 
+  return HttpResponse('Error') 
+Hope you have found your solution.
+
+Note: Please take care of the indentation as it breaks while copy-pasting from my editor. Though I have tried to indent it with one space.
