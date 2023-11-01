@@ -6,8 +6,7 @@ class MyBackEnd(object):
     This is the custom backend to authenticate the user in the DB. 
     if this authentication fais then django default authentication  will get called 
     """ 
- 
-    def authenticate(self, email, password):   # get the user credentils
+    def authenticate( email, password):   # get the user credentils
         """ :parameter email: email of the user  
             :parameter password: Password of the user 
             :return: 

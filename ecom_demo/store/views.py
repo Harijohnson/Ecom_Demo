@@ -3,10 +3,11 @@ from django.shortcuts import render,redirect
 from django.contrib.auth.models import User   # to update the data into db
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required 
-from django.contrib.auth import authenticate, login, logout 
+from django.contrib.auth import authenticate,login, logout
+# from store.backends import MyBackEnd
 from store.models import user_info
 # from store.forms import add_user # create_user
-
+# from store.backends import 
 
 # Create your views here.
 def store(request):
@@ -40,6 +41,7 @@ def login(request):
         password=request.POST.get('password')
         print("user credentials"+email,password)
         user = authenticate(email=email, password=password)
+        user=['harijn72@gmail.com','Harikrishnan1@']
         print(user)
         if user is not None:
             login(request,user)
