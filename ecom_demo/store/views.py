@@ -13,7 +13,7 @@ def store(request):
     return render(request,"store/store.html",context=context)
 
 def signin(request):
-    print(request.POST.get('username'))
+    '''print(request.POST.get('username'))
     print('good you are called by html ')
     print(request.method)
     if request.method=='POST':
@@ -27,24 +27,25 @@ def signin(request):
         print(username)
         print(email)
         print(password)
-        print(cPassword)
+        print(cPassword)'''
 
         # my_user =User.objects.create_user(username=username, email=email, password=password)
         #we can add anothe objects as below
         #my_user.f_name=fname        
         #update users in created database user
         # my_user = create_user(username=username, email=email, password=password)
-        my_user = add_user(username=username, email=email, password=password)
-        my_user.save()
+        #'''my_user = add_user(username=username, email=email, password=password)
+    #     my_user.save()'''
         
-        # to show some information about acount creation 
-        # messages.success(request,"Account Created Successfully")
+    #     # to show some information about acount creation 
+    #     # messages.success(request,"Account Created Successfully")
 
-        context=my_user
-        return render(request,"store/signin.html",context=context)
-    else:
-        print('nothing happened')
-    context={}
+    #     '''context=my_user
+    #     return render(request,"store/signin.html",context=context)
+    # else:
+    #     print('nothing happened')'''
+    
+    context={'form':add_user()}
     return render(request,"store/signin.html",context=context)
 
 
