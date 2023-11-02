@@ -2328,3 +2328,777 @@ def show_map(request):
 Hope you have found your solution.
 
 Note: Please take care of the indentation as it breaks while copy-pasting from my editor. Though I have tried to indent it with one space.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+email alread exists
+Internal Server Error: /signup_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 102, in signup_user
+    return redirect('signin_user')
+e 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'signin_user' not found. 'signin_user' is not a valid view function or pattern name.
+[02/Nov/2023 19:40:16] "POST /signup_user/ HTTP/1.1" 5[02/Nov/2023 19:40:16] "POST /signup_user/ HTTP/1.1" 500 89042
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).       
+Quit the server with CTRL-BREAK.
+
+[02/Nov/2023 19:41:34] "GET / HTTP/1.1" 200 17954
+[02/Nov/2023 19:41:36] "GET /signup_user/ HTTP/1.1" 200 7183
+[02/Nov/2023 19:41:41] "GET /login_user/ HTTP/1.1" 200 6706
+testuser01
+12345678
+testuser01
+look above
+[02/Nov/2023 19:41:58] "POST /login_user/ HTTP/1.1" 302 0
+[02/Nov/2023 19:41:58] "GET / HTTP/1.1" 200 17954
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\ecom_demo\info.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 19:44:40
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/ 
+Quit the server with CTRL-BREAK.
+
+[02/Nov/2023 19:44:59] "GET /logout_user/ HTTP/1.1" 302 0
+[02/Nov/2023 19:44:59] "GET / HTTP/1.1" 200 17954     
+[02/Nov/2023 19:45:08] "GET /logout_user/ HTTP/1.1" 302 0
+[02/Nov/2023 19:45:08] "GET / HTTP/1.1" 200 17954     
+[02/Nov/2023 19:45:20] "GET /login_user/ HTTP/1.1" 200 6706
+[02/Nov/2023 19:45:22] "GET /signup_user/ HTTP/1.1" 200 7183
+[02/Nov/2023 19:46:46] "GET /admin/ HTTP/1.1" 302 0
+[02/Nov/2023 19:46:46] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+[02/Nov/2023 19:47:06] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[02/Nov/2023 19:47:07] "GET /admin/ HTTP/1.1" 200 5822
+TP/1.1" 302 0
+[02/Nov/2023 19:47:42] "GET /admin/auth/user/?o=-1 HTTP/1.1" 200 10757
+[02/Nov/2023 19:47:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Forbidden (CSRF token from POST incorrect.): /signup_user/
+[02/Nov/2023 19:47:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Forbidden (CSRF token from POST incorrect.): /signup_user/
+[02/Nov/2023 19:48:29] "POST /signup_user/ HTTP/1.1" 403 2518
+[02/Nov/2023 19:48:30] "GET /signup_user/ HTTP/1.1" 200 7183
+[02/Nov/2023 19:48:52] "POST /signup_user/ HTTP/1.1" 302 0
+[02/Nov/2023 19:48:52] "GET / HTTP/1.1" 200 17954     
+[02/Nov/2023 19:52:54] "GET /logout_user/ HTTP/1.1" 302 0
+[02/Nov/2023 19:52:54] "GET / HTTP/1.1" 200 17954     
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> pythom -m pip install six
+pythom : The term 'pythom' is not recognized as the 
+name of a cmdlet, function, script file, or operable  
+program. Check the spelling of the name, or if a      
+path was included, verify that the path is correct    
+and try again.
+At line:1 char:1
++ pythom -m pip install six
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (pytho  
+   m:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundExcepti  
+   on
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python -m pip install six
+Requirement already satisfied: six in c:\users\hari_johnson\desktop\ecom_demo\ecom_demo\my_env\lib\site-packages (1.16.0)
+
+[notice] A new release of pip available: 22.3.1 -> 23.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 19:55:45
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/ 
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:00:30
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/ 
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:13:04
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/ 
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run   
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\commands\runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 485, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 24, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\ecom_demo\urls.py", line 22, in <module>
+    path("",include('store.urls')),   # redirecting to the app urls.py file
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)    
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py", line 19, in <module>    
+    from store import views
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 19, in <module>   
+    from django.utils.encoding import force_bytes,force_text
+ImportError: cannot import name 'force_text' from 'django.utils.encoding' (C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\encoding.py)
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run   
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\commands\runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 485, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 24, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\ecom_demo\urls.py", line 22, in <module>
+    path("",include('store.urls')),   # redirecting to the app urls.py file
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)    
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py", line 19, in <module>    
+    from store import views
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 17, in <module>   
+    from django.utils.encoding import force_bytes,force_text
+ImportError: cannot import name 'force_text' from 'django.utils.encoding' (C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\encoding.py)
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run   
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\commands\runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 485, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 24, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\ecom_demo\urls.py", line 22, in <module>
+    path("",include('store.urls')),   # redirecting to the app urls.py file
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)    
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py", line 19, in <module>    
+    from store import views
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 17, in <module>   
+    from django.utils.encoding import force_bytes,force_text
+ImportError: cannot import name 'force_text' from 'django.utils.encoding' (C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\encoding.py)
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run   
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\commands\runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 485, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 24, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\ecom_demo\urls.py", line 22, in <module>
+    path("",include('store.urls')),   # redirecting to the app urls.py file
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)    
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py", line 19, in <module>
+    from store import views
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 18, in <module>
+    from django.utils.encoding import force_bytes,force_text
+ImportError: cannot import name 'force_text' from 'django.utils.encoding' (C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utilsmo\Ecom_Demo\my_env\Lib\site-packages\django\utils\encoding.py)
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).       
+November 02, 2023 - 20:22:54
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/ 
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:25:28
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/ 
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run   
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\commands\runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 485, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 24, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\ecom_demo\urls.py", line 22, in <module>
+    path("",include('store.urls')),   # redirecting to the app urls.py file
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)    
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py", line 27, in <module>    
+    path('activate/<uidb64>/<token>', views.activate, name='activate'),
+                                      ^^^^^^^^^^^^^^  
+AttributeError: module 'store.views' has no attribute 'activate'
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run   
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\commands\runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 485, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\checks\urls.py", line 24, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\ecom_demo\urls.py", line 22, in <module>
+    path("",include('store.urls')),   # redirecting to the app urls.py file
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)    
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\urls.py", line 27, in <module>    
+    path('activate/<uidb64>/<token>', views.activate, name='activate'),
+                                      ^^^^^^^^^^^^^^  
+AttributeError: module 'store.views' has no attribute 'activate'
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:38:30
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/ 
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:39:33
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/ 
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:39:53
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:43:17
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:47:16
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:48:19
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:48:45
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 02, 2023 - 20:51:20
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git commit -m "i think every this workin fine login user and signup user logout user and email verification is working "
+[main 5430fd6] i think every this workin fine login user and signup user logout user and email verification is working
+ 15 files changed, 164 insertions(+), 37 deletions(-)
+ create mode 100644 ecom_demo/ecom_demo/__pycache__/info.cpython-311.pyc
+ create mode 100644 ecom_demo/ecom_demo/info.py
+ create mode 100644 ecom_demo/store/__pycache__/token.cpython-311.pyc
+ create mode 100644 ecom_demo/store/templates/activation_failed.html
+ create mode 100644 ecom_demo/store/templates/email_confermation.html
+ create mode 100644 ecom_demo/store/token.py
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git push origin main
+Enumerating objects: 38, done.
+Counting objects: 100% (38/38), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (24/24), 10.40 KiB | 2.08 MiB/s, done.
+Total 24 (delta 12), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (12/12), completed with 12 local objects.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   440d98d..5430fd6  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
