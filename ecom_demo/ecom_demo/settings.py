@@ -35,7 +35,7 @@ ALLOWED_HOSTS = []
 
 #telling that we are using custom db script  for authentication
 #Put both the backends, django tries to authenticate from second backend if it fails from the first one.
-AUTHENTICATION_BACKENDS = ('store.backends.MyBackEnd', 'django.contrib.auth.backends.ModelBackend') 
+#AUTHENTICATION_BACKENDS = ('store.backends.MyBackEnd', 'django.contrib.auth.backends.ModelBackend') 
  
 # Application definition
 
