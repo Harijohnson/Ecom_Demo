@@ -11,14 +11,14 @@ from django.contrib.auth import login, logout , authenticate
 # from store.backends import 
 from django.http import HttpResponse
 from ecom_demo.settings import *
-from django.core.mail import send_mail
+from django.core.mail import send_mail,EmailMessage  
 from django.contrib.sites.shortcuts import get_current_site
 from django.template.loader import render_to_string
-from base64 import urlsafe_b64decode, urlsafe_b64encode
+# from base64 import urlsafe_b64decode, urlsafe_b64encode
 from django.utils.encoding import force_bytes,force_str
 from store.token import genarate_token
-from email.message import EmailMessage
-
+# from email.message import EmailMessage
+from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode    
 
 
 
@@ -107,28 +107,28 @@ def signup_user(request):
         
         #my_user.fname     this is for adding single  object to the db
         if User.objects.filter(username=username):
-            messages.error("user is already exist please try another user name")
+            messages.error(request,"user is already exist please try another user name")
             print('user is already exist please try another user name')
             return redirect('store')
         
 
         if User.objects.filter(email=email):
-            messages.error("Email alread exists")
+            messages.error(request,"Email alread exists")
             print('Email alread exists')    
             return redirect('store')
         
         if len(username)>100:
-            messages.error("Username is too long")
+            messages.error(request,"Username is too long")
             print('Username is too long')
             return redirect('store')
         
         if password != cpassword:
-            messages.error("Password does not match")
+            messages.error(request,"Password does not match")
             print('Password does not match')
             return redirect('store')
         
         if not username.isalnum():
-            messages.error("Username not be a number")
+            messages.error(request,"Username not be a number")
             print('Username not be a number')
             return redirect('store')
         
@@ -152,10 +152,10 @@ def signup_user(request):
 
         email_subject = "Confermation mail for user creation"
 
-        email_message = render_to_string('email_conformation.html',{
+        email_message = render_to_string('email_confermation.html',{
             'name' :my_user.username,
             'domain':current_site.domain,
-            'uid':urlsafe_b64encode(force_bytes(my_user.pk)),
+            'uid':urlsafe_base64_encode(force_bytes(my_user.pk)),
             'token': genarate_token.make_token(my_user),
         })
         
@@ -164,12 +164,22 @@ def signup_user(request):
             email_message,
             EMAIL_HOST_USER,
             [my_user.email],
-
         )
 
         email_send.fails=True
         email_send.send()
         
+
+        # from_email = EMAIL_HOST_USER
+        # to_list =[my_user.email]
+        # send_mail(subject,message,from_email,to_list,fail_silently=True)
+        
+
+
+
+
+
+
         # 'Hello '+my_user.username+" here is the link click to activate your account "
 
         return redirect("store")
@@ -191,10 +201,10 @@ def login_user(request):
         # print('look above')
         if user is not None:
             login(request,user)
-            messages.success('Loged out Successfully'+request.POST['username'] + request.POST['email'])
+            messages.success(request,'Loged out Successfully')
             return redirect('store')
         else:
-            messages.error("Username or Password is Incorrect")
+            messages.error(request,"Username or Password is Incorrect")
             print('user cred is not valid')
             return redirect('login_user')
     return render(request,'store/login_user.html') 
@@ -203,14 +213,15 @@ def login_user(request):
 
 def logout_user(request):
     if request.method == 'POST':
+        messages.success(request,'Loged out Successfully')
         logout(request)
-        messages.success('Loged out Successfully'+request.POST['username'] + request.POST['email'])
+       
         return redirect('store')
     return render(request,'store/logout_user.html')
 
 def activate(request, uidb64,token):
     try:
-        uid=force_str(urlsafe_b64decode(uidb64))
+        uid=force_str(urlsafe_base64_decode(uidb64))
         my_user = User.objects.get(pk=uid)
     except (TypeError,ValueError,OverflowError,User.DoesNotExist):
         my_user = None
