@@ -15,10 +15,10 @@
              <form  method="post" >    <!-- action="{% url 'store' %}"      this not suppose to redirect   backed pythen have to redirect  -->
                 {% csrf_token %}  
                 <div class="input-group">
-
+                    {{messages}}
                     <div class="input-field">
                         <i class='bx bx-envelope' ></i>
-                        <input type="text"placeholder='Email'  id="email" name="email">
+                        <input type="text"placeholder='UserName'  id="username" name="username">
                     </div>
 
                     <div class="input-field">

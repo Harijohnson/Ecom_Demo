@@ -14,6 +14,7 @@
             <h1 id="title">Login</h1>
              <form  method="post">    <!-- action="{% url 'store' %}"      this not suppose to redirect   backed pythen have to redirect  -->
                 {% csrf_token %}  
+                {{messages}}
                 <!--<div class="input-group">
 
                      <div class="input-field">
