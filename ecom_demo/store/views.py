@@ -2,10 +2,10 @@ from django.shortcuts import render,redirect
 # from django.http import 
 from django.contrib.auth.models import User   # to update the data into db
 from django.contrib import messages
-from django.contrib.auth.decorators import login_required 
-from django.contrib.auth import login, logout
-from store.backends import MyBackEnd
-from store.models import user_info
+# from django.contrib.auth.decorators import login_required 
+from django.contrib.auth import login, logout , authenticate
+# from store.backends import MyBackEnd
+# from store.models import user_info
 # from store.forms import add_user # create_user
 # from store.backends import 
 from django.http import HttpResponse
@@ -13,31 +13,31 @@ from django.http import HttpResponse
 
 # Create your views here.
 def store(request):
-    # if request.user.is_authenticated:
-    #     # User is logged in
-    #     # You can access user attributes like request.user.username, request.user.email, etc.
-    #     # Perform actions for authenticated users here
-    #     return HttpResponse('You are logged in as ' + request.user.email)
-    # else:
-    #     # User is not logged in
-    #     # Perform actions for anonymous users here
-    #     return HttpResponse('You are not logged in')
+    if request.user.is_authenticated:
+        # User is logged in
+        # You can access user attributes like request.user.username, request.user.email, etc.
+        # Perform actions for authenticated users here
+        return HttpResponse('You are logged in as ' + request.user.email)
+    else:
+        # User is not logged in
+        # Perform actions for anonymous users here
+        return HttpResponse('You are not logged in')
     context={}
     return render(request,"store/store.html",context=context)
     
 
 def product(request):
-    
     context={}
     return render(request,"store/product_info.html",context=context)
 
-def login_user(request):
+#def login_user(request):
     if request.method=='POST':
         context={}
         email=request.POST.get('email')
         password=request.POST.get('password')
         print("user credentials"+email,password)
-        user = MyBackEnd().authenticate(email=email, password=password)
+        user=[]
+        # user = MyBackEnd().authenticate(email=email, password=password)
         # user=['harijn72@gmail.com','Harikrishnan1@']
         # print("user is " + str(user))
         if user is not None:
@@ -52,14 +52,11 @@ def login_user(request):
             context={}
             messages.error(request,"you enterd wormg email or password")
             return render(request,"store/login.html",context=context)
-
-
-
     context={}
     return render(request, 'store/login.html',context=context)
 
 
-def logout_user(request):
+#def logout_user(request):
     context={}
     if request.method== "POST":
         logout(request)
@@ -68,14 +65,15 @@ def logout_user(request):
         return redirect('store')
     return render(request, 'store/logout.html',context=context)
 #first action   working
-def signin(request):
+#def signin(request):
     # print(request.method)
     if request.method== "POST":
         print('you are in')
         username = request.POST.get('username')
         email = request.POST.get('email')
         password = request.POST.get('password')
-        my_user = user_info.objects(username=username,email=email,password=password)
+        my_user=[]
+        # my_user = user_info.objects(username=username,email=email,password=password)
         my_user.save()
         context={}
         return redirect("login_user")
@@ -84,3 +82,113 @@ def signin(request):
         print('method is worng')
         context={}
         return render(request,'store/signin.html',context=context)
+
+
+def signup_user(request):
+    if request.method=='POST':
+        username=request.POST['username']
+        email=request.POST['email']
+        password = request.POST['password']
+        my_user = User.objects.create_user(username,email,password)
+        #my_user.fname     this is for adding single  object to the db
+        my_user.save()
+        return redirect("store")
+
+
+
+    return render(request,'store/signup_user.html') 
+
+
+
+def login_user(request):
+    if request.method == 'POST':
+        email= request.POST['email']
+        password = request.POST['password']
+        
+        user= authenticate(email=email,password=password)
+
+        if user is not None:
+            login(request,user)
+            return redirect('store')
+        else:
+            print('user cred is not valid')
+            return redirect('login_user')
+    return render(request,'store/login_user.html') 
+
+
+
+
+
+
+
+
+
+
+
+def logout_user(request):
+    pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
