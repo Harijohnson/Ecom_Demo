@@ -13,34 +13,18 @@ from django.http import HttpResponse
 
 # Create your views here.
 def store(request):
-    if request.user.is_authenticated:
-        # User is logged in
-        # You can access user attributes like request.user.username, request.user.email, etc.
-        # Perform actions for authenticated users here
-        return HttpResponse('You are logged in as ' + request.user.email)
-    else:
-        # User is not logged in
-        # Perform actions for anonymous users here
-        return HttpResponse('You are not logged in')
+    # if request.user.is_authenticated:
+    #     # User is logged in
+    #     # You can access user attributes like request.user.username, request.user.email, etc.
+    #     # Perform actions for authenticated users here
+    #     return HttpResponse('You are logged in as ' + request.user.email)
+    # else:
+    #     # User is not logged in
+    #     # Perform actions for anonymous users here
+    #     return HttpResponse('You are not logged in')
     context={}
     return render(request,"store/store.html",context=context)
     
-#first action   working
-def signin(request):
-    # print(request.method)
-    if request.method== "POST":
-        print('you are in')
-        username = request.POST.get('username')
-        email = request.POST.get('email')
-        password = request.POST.get('password')
-        my_user = user_info.objects.create(username=username,email=email,password=password)
-        my_user.save()
-        context={}
-        return render(request,'store/login.html',context=context)
-    else:
-        print('method is worng')
-        context={}
-        return render(request,'store/signin.html',context=context)
 
 def product(request):
     
@@ -83,3 +67,20 @@ def logout_user(request):
         messages.success(request,"loged out successfully")
         return redirect('store')
     return render(request, 'store/logout.html',context=context)
+#first action   working
+def signin(request):
+    # print(request.method)
+    if request.method== "POST":
+        print('you are in')
+        username = request.POST.get('username')
+        email = request.POST.get('email')
+        password = request.POST.get('password')
+        my_user = user_info.objects(username=username,email=email,password=password)
+        my_user.save()
+        context={}
+        return redirect("login_user")
+        # return render(request,'store/login.html',context=context)
+    else:
+        print('method is worng')
+        context={}
+        return render(request,'store/signin.html',context=context)
