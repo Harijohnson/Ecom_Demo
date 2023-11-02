@@ -104,9 +104,11 @@ def login_user(request):
     if request.method == 'POST':
         email= request.POST['email']
         password = request.POST['password']
-        
-        user= authenticate(email=email,password=password)
-
+        print(email)
+        print(password)
+        user= authenticate(request,username='hari',password='Harikrishnan1@')
+        print(user)
+        print('look above')
         if user is not None:
             login(request,user)
             return redirect('store')
