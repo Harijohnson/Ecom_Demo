@@ -7,7 +7,7 @@ class user_info(models.Model):
     password=models.CharField(max_length=50)
 
     def __str__(self):
-       email = self.email
+       return self.email
         
     # class Meta:
     #    ordering = ('username')

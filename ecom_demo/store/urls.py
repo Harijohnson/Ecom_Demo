@@ -21,7 +21,8 @@ from store import views
 urlpatterns = [   
     path("",views.store,name='store'),# redirecting to the views function named store
     path('product/',views.product,name='product'), # redirecting to product page
-    path('login/', views.login, name='login'),
+    path('login/', views.login_user, name='login'),
     path('signin/', views.signin, name='signin'),
+    path('logout/', views.logout_user, name='logout'),
 
 ]
