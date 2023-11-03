@@ -169,6 +169,6 @@ STATICFILES=[
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-AUTH_USER_MODEL = 'store.CustomUser'
+# AUTH_USER_MODEL = 'store.CustomUser'
 
 APPEND_SLASH=True

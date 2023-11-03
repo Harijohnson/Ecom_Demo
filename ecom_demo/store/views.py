@@ -10,6 +10,7 @@ from django.contrib.auth import login, logout , authenticate
 # from store.forms import add_user # create_user
 # from store.backends import 
 from django.http import HttpResponse
+
 from ecom_demo.settings import *
 from django.core.mail import send_mail,EmailMessage  
 from django.contrib.sites.shortcuts import get_current_site
@@ -19,7 +20,7 @@ from django.utils.encoding import force_bytes,force_str
 from store.token import genarate_token
 # from email.message import EmailMessage
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode    
-
+from store.forms import NewUserCreationForm
 
 
 
@@ -100,11 +101,14 @@ def product_info(request):
 
 def signup_user(request):
     if request.method=='POST':
+        # form =  NewUserCreationForm(request.POST)
         username=request.POST['username']
         email=request.POST['email']
         password = request.POST['password']
         cpassword=request.POST['cpassword']
-        
+        # if form.is_valid():
+        #     user = form.save()
+        #     return redirect('login_user')
         #my_user.fname     this is for adding single  object to the db
         if User.objects.filter(username=username):
             messages.error(request,"user is already exist please try another user name")
@@ -185,8 +189,8 @@ def signup_user(request):
         return redirect("store")
 
 
-
-    return render(request,'store/signup_user.html') 
+    context= {}
+    return render(request,'store/signup_user.html',context=context) 
 
 
 

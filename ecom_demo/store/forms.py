@@ -16,14 +16,21 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
-class CustomUserCreationForm(UserCreationForm):
+
+# create your form in here  this form is not associated with models.py
+class NewUserCreationForm(UserCreationForm):
     email = forms.EmailField(max_length=254, help_text='Required. Enter a valid email address.')
 
     class Meta:
         model = User
-        fields = ['username', 'email', 'password']
+        fields = ['username', 'email', 'password1','password2']
 
-
+    def save(self,commit=True):
+        user = super(NewUserCreationForm,self).save(commit=False)
+        user.email = self.cleaned_data['email']
+        if commit:
+            user.save()
+        return user
 
 
 
