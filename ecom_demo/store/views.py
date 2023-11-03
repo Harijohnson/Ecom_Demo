@@ -40,7 +40,7 @@ def store(request):
     return render(request,"store/store.html",context=context)
     
 
-def product(request):
+def product_info(request):
     context={}
     return render(request,"store/product_info.html",context=context)
 

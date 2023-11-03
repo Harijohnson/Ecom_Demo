@@ -44,6 +44,12 @@ ALLOWED_HOSTS = []
 #Put both the backends, django tries to authenticate from second backend if it fails from the first one.
 #AUTHENTICATION_BACKENDS = ('store.backends.MyBackEnd', 'django.contrib.auth.backends.ModelBackend') 
  
+ #authenticate user model
+
+
+
+
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -163,6 +169,6 @@ STATICFILES=[
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+AUTH_USER_MODEL = 'store.CustomUser'
 
-
-APPEND_SLASH=False
+APPEND_SLASH=True
