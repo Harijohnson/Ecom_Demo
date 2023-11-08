@@ -1,9 +1,10 @@
 """Declare models for YOUR_APP app."""
 
-from django.contrib.auth.models import  AbstractUser, BaseUserManager
+from django.contrib.auth.models import  AbstractBaseUser, BaseUserManager
 from django.db import models
+#creat anew user
 
-class UserManager(BaseUserManager):
+class MyAccountManager(BaseUserManager):
     
 
     def create_user(self,email,username,password=None):
@@ -40,8 +41,8 @@ def get_profile_image_filepath(self):
 def get_default_profile_image():
     return "images/defult.png"
 
-class Account(AbstractUser):
-    email       = models.EmailField(verbose_name='email',max_length=60,unique=True)
+class Account(AbstractBaseUser):
+    email       = models.EmailField(verbose_name='email',max_length=60,unique=True,)
     username = models.CharField(max_length=50,unique=False) 
     date_joined = models.DateTimeField(verbose_name='date joined' ,auto_now_add=True)
     last_login  = models.DateTimeField(verbose_name='last login' ,auto_now=True)
@@ -52,7 +53,7 @@ class Account(AbstractUser):
     profile_image  = models.ImageField(max_length=225,upload_to=get_profile_image_filepath ,null= True,blank=True,default=get_default_profile_image)
     hide_email = models.BooleanField(default=True)
 
-    objects = UserManager()
+    objects = MyAccountManager()
 
 
     USERNAME_FIELD = 'email'
@@ -74,23 +75,15 @@ class Account(AbstractUser):
     
     user_permissions = models.ManyToManyField(
         'auth.Permission',
-        related_name='custom_user_set',
-        related_query_name='custom_user',
+        related_name='custom_user_permissions',
+        related_query_name='custom_user_permission',
         blank=True,
         help_text='Specific permissions for this user.'
     )
     groups = models.ManyToManyField(
         'auth.Group',
-        related_name='custom_user_set',
-        related_query_name='custom_user',
+        related_name='custom_user_groups',
+        related_query_name='custom_user_group',
         blank=True,
         help_text='The groups this user belongs to. A user will get all permissions granted to each of their groups.'
     )
-
-
-
-
-
-
-
-
