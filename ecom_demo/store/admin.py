@@ -1,21 +1,17 @@
-# from django.contrib import admin
-# from store.models import user_info
+from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
+from store.models import Account
 
-# # Register your models here.
-# class user_admin(admin.ModelAdmin):
-#     list=['username','email','password']
+class AccountAdmin(UserAdmin):
+    list_display = ('email','username','date_joined','last_login','is_admin',"is_staff",)  # table headings
+    search_fields=('email','username',)   #search the item in the table
+    readonly_fields = ('id','date_joined','last_login',)  #after in the click 
 
-# admin.site.register(user_info, user_admin)
+    filter_horizontal=()
+    list_filter=()
+    fieldsets = ()
 
 
+admin.site.register(Account,AccountAdmin)
 
 
-# from django.contrib import admin
-# from django.contrib.auth.admin import UserAdmin
-# from .models import CustomUser
-
-# class CustomUserAdmin(UserAdmin):
-#     model = CustomUser
-#     list_display = ['username', 'email', 'password']
-
-# admin.site.register(CustomUser, CustomUserAdmin)

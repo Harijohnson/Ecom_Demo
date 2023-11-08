@@ -1,36 +1,84 @@
-#from django import forms
-# from store.models import user_info
-
-
-# class add_user(forms.ModelForm):
-#     class Meta:
-#         model = user_info
-#         fields = ['username','email','password']
-
-# class create_user(forms.ModelForm):
-#     username = forms.CharField(max_length = 200)  
-#     email = forms.CharField(max_length = 200)    
-#     password = forms.CharField(widget = forms.PasswordInput())
-
-from django import forms
 from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth.models import User
+from django.contrib.auth import authenticate
+from django import forms
+from store.models import Account
 
 
-# create your form in here  this form is not associated with models.py
-class NewUserCreationForm(UserCreationForm):
-    email = forms.EmailField(max_length=254, help_text='Required. Enter a valid email address.')
+class RegistrationForm(UserCreationForm):
 
+    email = forms.EmailField(max_length=200,help_text = 'Required. Add valid email address')
     class Meta:
-        model = User
-        fields = ['username', 'email', 'password1','password2']
+        model = Account
+        fields = ('email','username','password1','password2')
 
-    def save(self,commit=True):
-        user = super(NewUserCreationForm,self).save(commit=False)
-        user.email = self.cleaned_data['email']
-        if commit:
-            user.save()
-        return user
+    def clean_email(self):
+        email =self.cleaned_data['email'].lower()
+        try:
+            account = Account.objects.get(email=email)
+        except Exception as e:
+            return email
+        raise forms.ValidationError(f'Email {email} is already in use. ')
+    def clean_username(self):
+        username =self.cleaned_data['username']
+        try:
+            account = Account.objects.get(username=username)
+        except Exception as e:
+            return username
+        raise forms.ValidationError(f'Username {username} is already in use. ')
+
+class  AccountAuthentication(forms.ModelForm):
+    password = forms.CharField(label = 'Password' ,widget=forms.PasswordInput)
+    class Meta:
+        model = Account
+        fields = ('email','password')
+    def clean(self):
+        if self.is_valid():
+            email = self.cleaned_data['email']
+            password = self.cleaned_data['password']
+            if not authenticate(email=email,password=password):
+                raise forms.ValidationError('Invalid Login')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
