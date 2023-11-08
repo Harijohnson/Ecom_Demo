@@ -2999,9 +2999,1221 @@ To https://github.com/Harijohnson/Ecom_Demo.git
 
 
 
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\MySQLdb\connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1824, "Failed to open the referenced table 'store_account'")
+
+The above exception was the direct cause of the following exception:  
+
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 412, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 458, in execute    
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 106, in wrapper    
+    res = handle_func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\commands\migrate.py", line 356, in handle
+    post_migrate_state = executor.migrate(
+                         ^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\migrations\executor.py", line 135, in migrate  
+    state = self._migrate_all_forwards(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\migrations\executor.py", line 167, in _migrate_all_forwards
+    state = self.apply_migration(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\migrations\executor.py", line 249, in apply_migration
+    with self.connection.schema_editor(
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\base\schema.py", line 166, in __exit__
+    self.execute(sql)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\base\schema.py", line 201, in execute 
+    cursor.execute(sql, params)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 102, in execute       
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 67, in execute        
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute       
+    with self.db.wrap_database_errors:
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value       
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute       
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute   
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+    db.query(q)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\MySQLdb\connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1824, "Failed to open the referenced table 'store_account'")
+(my                        OHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo>
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py makemigrations
+No changes detected
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py migrate       
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0001_initial... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py createsuperuser
+Email: hari@gmail.com
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: store_account
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 412, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\management\commands\createsuperuser.py", line 88, in execute
+    return super().execute(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 458, in execute
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\management\commands\createsuperuser.py", line 130, in handle
+    error_msg = self._validate_username(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\management\commands\createsuperuser.py", line 295, in _validate_username  
+    self.UserModel._default_manager.db_manager(database).get_by_natural_key(
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\base_user.py", line 54, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: store_account        
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo>
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py createsuperuser
+Email: hari@gmail.com
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute       
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: store_account
+
+The above exception was the direct cause of the following exception:  
+
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 412, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\management\commands\createsuperuser.py", line 88, in execute
+    return super().execute(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 458, in execute    
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\management\commands\createsuperuser.py", line 130, in handle
+    error_msg = self._validate_username(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\management\commands\createsuperuser.py", line 295, in _validate_username
+    self.UserModel._default_manager.db_manager(database).get_by_natural_key(
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\base_user.py", line 54, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method 
+    return getattr(self.get_queryset(), name)(*args, **kwargs)        
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all     
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 102, in execute       
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 67, in execute        
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute       
+    with self.db.wrap_database_errors:
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value       
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute       
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: store_account        
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py makemigrations store_account
+>>
+No installed app with label 'store_account'.
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py migrate
+>>
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py createsuperuser
+>>
+Email: hari@gmail.com
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute       
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: store_account
+
+The above exception was the direct cause of the following exception:  
+
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 412, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\management\commands\createsuperuser.py", line 88, in execute
+    return super().execute(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 458, in execute    
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\management\commands\createsuperuser.py", line 130, in handle
+    error_msg = self._validate_username(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\management\commands\createsuperuser.py", line 295, in _validate_username
+    self.UserModel._default_manager.db_manager(database).get_by_natural_key(
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\base_user.py", line 54, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method 
+    return getattr(self.get_queryset(), name)(*args, **kwargs)        
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all     
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 102, in execute       
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 67, in execute        
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute       
+    with self.db.wrap_database_errors:
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value       
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute       
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: store_account        
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py makemigrations store_account
+>>
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\apps\registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\apps\config.py", line 193, in create
+    import_module(entry)
+  File "C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)       
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^       
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import     
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load  
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'store_account'
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py makemigrations store        
+Migrations for 'store':
+  store\migrations\0001_initial.py
+    - Create model Account
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py migrate             
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 22, in <module>
+    main()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 412, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 458, in execute    
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\base.py", line 106, in wrapper    
+    res = handle_func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\management\commands\migrate.py", line 120, in handle
+    executor.loader.check_consistent_history(connection)
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\db\migrations\loader.py", line 327, in check_consistent_history
+    raise InconsistentMigrationHistory(
+django.db.migrations.exceptions.InconsistentMigrationHistory: Migration admin.0001_initial is applied before its dependency store.0001_initial on database 'default'.
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py makemigrations store
+Migrations for 'store':
+  store\migrations\0001_initial.py
+    - Create model Account
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py migrate             
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions, store    
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0001_initial... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying store.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sessions.0001_initial... OK
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py createsuperuser
+>>
+Email: hari@gmail.com
+Username: Harikrishnan
+Password:
+Password (again):
+The password is too similar to the username.
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py runserver      
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 15:11:33
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 15:11:38] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:11:50] "GET /admin/ HTTP/1.1" 302 0
+[08/Nov/2023 15:11:51] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+[08/Nov/2023 15:12:02] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Nov/2023 15:12:03] "GET /admin/ HTTP/1.1" 200 5807
+[08/Nov/2023 15:12:05] "GET /admin/store/account/ HTTP/1.1" 200 9968
+[08/Nov/2023 15:12:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /signup_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 44, in signup_user
+    return redirect('home')
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+[08/Nov/2023 15:12:20] "GET /signup_user/ HTTP/1.1" 500 87757
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 15:13:40
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 15:13:41] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:13:41] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:13:43] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:13:43] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:13:48] "GET /logout_user/ HTTP/1.1" 200 6856
+[08/Nov/2023 15:13:49] "POST /logout_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:13:49] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:13:52] "GET /signup_user/ HTTP/1.1" 200 7255
+Internal Server Error: /signup_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 49, in signup_user
+    form.save()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\s           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\forms\models.py", line 533, in save
+    raise ValueError(
+ValueError: The Account could not be created because the data didn't validate.
+[08/Nov/2023 15:14:19] "POST /signup_user/ HTTP/1.1" 500 79055        
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 15:16:10
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 15:16:43
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 15:16:47] "GET /signup_user/ HTTP/1.1" 200 7255
+[08/Nov/2023 15:18:38] "GET /signup_user/ HTTP/1.1" 200 7256
+[08/Nov/2023 15:18:39] "GET /signup_user/ HTTP/1.1" 200 7256
+[08/Nov/2023 15:18:40] "GET /static/javascript/store.js HTTP/1.1" 200 2807
+[08/Nov/2023 15:18:40] "GET /static/javascript/base_script.js HTTP/1.1" 200 993
+[08/Nov/2023 15:18:40] "GET /static/css/store.css HTTP/1.1" 200 6066
+[08/Nov/2023 15:18:40] "GET /static/images/base/logo_1.png HTTP/1.1" 200 38317
+[08/Nov/2023 15:18:40] "GET /static/css/base_style.css HTTP/1.1" 200 5472
+[08/Nov/2023 15:18:40] "GET /static/css/product_info.css HTTP/1.1" 200 3423
+[08/Nov/2023 15:18:41] "GET /static/images/base/fv.png HTTP/1.1" 200 5856
+Internal Server Error: /signup_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 49, in signup_user
+    form.save()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\forms.py", line 140, in save
+    user = super().save(commit=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\forms\models.py", line 533, in save
+    raise ValueError(
+ValueError: The Account could not be created because the data didn't validate.
+[08/Nov/2023 15:19:04] "POST /signup_user/ HTTP/1.1" 500 79035        
+Not Found: /favicon.ico
+[08/Nov/2023 15:19:05] "GET /favicon.ico HTTP/1.1" 404 4358
+[08/Nov/2023 15:20:51] "GET /signup_user/ HTTP/1.1" 200 7278
+Internal Server Error: /signup_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 49, in signup_user
+    form.save()
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\forms.py", line 140, in save
+    user = super().save(commit=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\forms\models.py", line 533, in save
+    raise ValueError(
+ValueError: The Account could not be created because the data didn't validate.
+[08/Nov/2023 15:21:11] "POST /signup_user/ HTTP/1.1" 500 79035        
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 15:23:31
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 15:24:40
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 15:24:58
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+Internal Server Error: /signup_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 88, in signup_user
+    context['registration_form'] =  form
+                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+[08/Nov/2023 15:25:02] "GET /signup_user/ HTTP/1.1" 500 69279
+Internal Server Error: /signup_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 88, in signup_user
+    context['registration_form'] =  form
+                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+[08/Nov/2023 15:25:04] "GET /signup_user/ HTTP/1.1" 500 69416
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 15:25:30
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 15:25:32] "GET /signup_user/ HTTP/1.1" 200 7278
+Internal Server Error: /signup_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 49, in signup_user
+    user= form.save(commit=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\forms.py", line 140, in save
+    user = super().save(commit=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\forms\models.py", line 533, in save
+    raise ValueError(
+ValueError: The Account could not be created because the data didn't validate.
+[08/Nov/2023 15:25:51] "POST /signup_user/ HTTP/1.1" 500 79076        
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 15:26:51
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 15:26:56] "GET /signup_user/ HTTP/1.1" 200 7278
+Internal Server Error: /signup_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 49, in signup_user
+    user= form.save(commit=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\contrib\auth\forms.py", line 140, in save
+    user = super().save(commit=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\forms\models.py", line 533, in save
+    raise ValueError(
+ValueError: The Account could not be created because the data didn't validate.
+[08/Nov/2023 15:27:13] "POST /signup_user/ HTTP/1.1" 500 79098        
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 15:29:31
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 15:29:33] "GET /signup_user/ HTTP/1.1" 200 7278
+[08/Nov/2023 15:29:55] "POST /signup_user/ HTTP/1.1" 200 7386
+[08/Nov/2023 15:30:01] "GET /admin/store/account/ HTTP/1.1" 302 0
+[08/Nov/2023 15:30:01] "GET /admin/login/?next=/admin/store/account/ HTTP/1.1" 200 4333
+[08/Nov/2023 15:30:13] "POST /admin/login/?next=/admin/store/account/ HTTP/1.1" 302 0
+[08/Nov/2023 15:30:13] "GET /admin/store/account/ HTTP/1.1" 200 9966
+[08/Nov/2023 15:30:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Forbidden (CSRF token from POST incorrect.): /signup_user/
+[08/Nov/2023 15:30:48] "POST /signup_user/ HTTP/1.1" 403 2518
+[08/Nov/2023 15:30:57] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:30:57] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:00] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:00] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:03] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:03] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:04] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:04] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:05] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:05] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:05] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:05] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:06] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:06] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:06] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:06] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:06] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:07] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:07] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:07] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:08] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:08] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:45] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 15:31:51] "POST /admin/logout/ HTTP/1.1" 200 3576
+[08/Nov/2023 15:31:54] "GET / HTTP/1.1" 200 18097
+[08/Nov/2023 15:31:58] "GET /logout_user/ HTTP/1.1" 200 6899
+[08/Nov/2023 15:31:59] "POST /logout_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:59] "GET / HTTP/1.1" 200 18097
+[08/Nov/2023 15:32:03] "GET /signup_user/ HTTP/1.1" 200 7321
+[08/Nov/2023 15:32:22] "POST /signup_user/ HTTP/1.1" 200 7429
+[08/Nov/2023 15:32:41] "GET /admin/ HTTP/1.1" 302 0
+[08/Nov/2023 15:32:41] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4305
+[08/Nov/2023 15:32:49] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Nov/2023 15:32:49] "GET /admin/ HTTP/1.1" 200 5807
+[08/Nov/2023 15:32:49] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[08/Nov/2023 15:32:50] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[08/Nov/2023 15:32:51] "GET /admin/store/account/ HTTP/1.1" 200 9969
+0
+[08/Nov/2023 15:33:00] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[08/Nov/2023 15:33:00] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[08/Nov/2023 15:33:00] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[08/Nov/2023 15:33:08] "GET /admin/store/account/ HTTP/1.1" 200 9969
+[08/Nov/2023 15:33:20] "POST /admin/logout/ HTTP/1.1" 200 3576
+Forbidden (CSRF token from POST incorrect.): /signup_user/
+[08/Nov/2023 15:33:45] "POST /signup_user/ HTTP/1.1" 403 2518
+[08/Nov/2023 15:34:15] "GET /signup_user/ HTTP/1.1" 200 7321
+[08/Nov/2023 15:34:31] "POST /signup_user/ HTTP/1.1" 200 7429
+[08/Nov/2023 15:35:01] "POST /signup_user/ HTTP/1.1" 200 7429
+[08/Nov/2023 15:35:08] "GET /admin/ HTTP/1.1" 302 0
+[08/Nov/2023 15:35:08] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+[08/Nov/2023 15:35:16] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Nov/2023 15:35:16] "GET /admin/ HTTP/1.1" 200 5807
+[08/Nov/2023 15:35:18] "GET /admin/store/account/ HTTP/1.1" 200 9969
+[08/Nov/2023 15:35:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+(my    ) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo>
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> 
 
 
 
+[08/Nov/2023 15:31:00] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:00] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:03] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:03] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:04] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:04] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:05] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:05] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:05] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:05] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:06] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:06] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:06] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:06] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:06] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:07] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:07] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:07] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:08] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:08] "GET / HTTP/1.1" 200 18054
+[08/Nov/2023 15:31:45] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 15:31:51] "POST /admin/logout/ HTTP/1.1" 200 3576
+[08/Nov/2023 15:31:54] "GET / HTTP/1.1" 200 18097
+[08/Nov/2023 15:31:58] "GET /logout_user/ HTTP/1.1" 200 6899
+[08/Nov/2023 15:31:59] "POST /logout_user/ HTTP/1.1" 302 0
+[08/Nov/2023 15:31:59] "GET / HTTP/1.1" 200 18097
+[08/Nov/2023 15:32:03] "GET /signup_user/ HTTP/1.1" 200 7321
+[08/Nov/2023 15:32:22] "POST /signup_user/ HTTP/1.1" 200 7429
+[08/Nov/2023 15:32:41] "GET /admin/ HTTP/1.1" 302 0
+[08/Nov/2023 15:32:41] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4305
+[08/Nov/2023 15:32:49] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Nov/2023 15:32:49] "GET /admin/ HTTP/1.1" 200 5807
+[08/Nov/2023 15:32:49] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[08/Nov/2023 15:32:50] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[08/Nov/2023 15:32:51] "GET /admin/store/account/ HTTP/1.1" 200 9969
+0
+[08/Nov/2023 15:33:00] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[08/Nov/2023 15:33:00] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[08/Nov/2023 15:33:00] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[08/Nov/2023 15:33:08] "GET /admin/store/account/ HTTP/1.1" 200 9969
+[08/Nov/2023 15:33:20] "POST /admin/logout/ HTTP/1.1" 200 3576
+Forbidden (CSRF token from POST incorrect.): /signup_user/
+[08/Nov/2023 15:33:45] "POST /signup_user/ HTTP/1.1" 403 2518
+[08/Nov/2023 15:34:15] "GET /signup_user/ HTTP/1.1" 200 7321
+[08/Nov/2023 15:34:31] "POST /signup_user/ HTTP/1.1" 200 7429
+[08/Nov/2023 15:35:01] "POST /signup_user/ HTTP/1.1" 200 7429
+[08/Nov/2023 15:35:08] "GET /admin/ HTTP/1.1" 302 0
+[08/Nov/2023 15:35:08] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+[08/Nov/2023 15:35:16] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Nov/2023 15:35:16] "GET /admin/ HTTP/1.1" 200 5807
+[08/Nov/2023 15:35:18] "GET /admin/store/account/ HTTP/1.1" 200 9969
+[08/Nov/2023 15:35:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+(my    ) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo>
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git commit -m "kind of  working and db is sqllite3 mysql is not working properly"
+[main 6413fb5] kind of  working and db is sqllite3 mysql is not working properly
+ 37 files changed, 293 insertions(+), 307 deletions(-)
+ delete mode 100644 ecom_demo/store/migrations/0002_remove_user_id_alter_user_email.py
+ delete mode 100644 ecom_demo/store/migrations/0003_rename_user_user_info.py
+ delete mode 100644 ecom_demo/store/migrations/0004_delete_user_info.py
+ delete mode 100644 ecom_demo/store/migrations/0005_initial.py
+ delete mode 100644 ecom_demo/store/migrations/0006_delete_customuser.py
+ delete mode 100644 ecom_demo/store/migrations/__pycache__/0002_remove_user_id_alter_user_email.cpython-311.pyc
+ delete mode 100644 ecom_demo/store/migrations/__pycache__/0003_rename_user_user_info.cpython-311.pyc
+ delete mode 100644 ecom_demo/store/migrations/__pycache__/0004_delete_user_info.cpython-311.pyc
+ delete mode 100644 ecom_demo/store/migrations/__pycache__/0005_initial.cpython-311.pyc
+ delete mode 100644 ecom_demo/store/migrations/__pycache__/0006_delete_customuser.cpython-311.pyc
+ create mode 100644 ecom_demo/store/templates/password_reset/password_change.html
+ create mode 100644 ecom_demo/store/templates/password_reset/password_change_done.html
+ create mode 100644 ecom_demo/store/templates/password_reset/password_reset_complete.html
+ create mode 100644 ecom_demo/store/templates/password_reset/password_reset_done.html
+ create mode 100644 ecom_demo/store/templates/password_reset/password_reset_email.html
+ create mode 100644 ecom_demo/store/templates/password_reset/password_reset_form.html
+ create mode 100644 ecom_demo/store/templates/password_reset/password_reset_subject.txt
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git push origin main
+Enumerating objects: 58, done.
+Counting objects: 100% (58/58), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (39/39), 23.50 KiB | 1.12 MiB/s, done.
+Total 39 (delta 17), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (17/17), completed with 12 local objects.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   7bbfddc..6413fb5  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> 
+ *  History restored 
+
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo> 
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo>
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo> cd C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env> cd ..
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo> my_env\Script\activate
+my_env\Script\activate : The module 'my_env' could not be loaded. For more information, run 'Import-Module my_env'.
+At line:1 char:1
++ my_env\Script\activate
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (my_env\Script\activate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo> my_env\Scripts\activate
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo> python manage.py runserver
+C:\Users\HARI_JOHNSON\AppData\Local\Programs\Python\Python311\python.exe: can't open file 'C:\\Users\\HARI_JOHNSON\\Desktop\\Ecom_demo\\Ecom_Demo\\manage.py': [Errno 2] No such file or directory
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo> cd ecom_demo
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py runserver
+
+ *  History restored 
+                                            cd C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_envEcom_demo>
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env> cd ..
+PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo> my_env\Scripts\activate
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo> cd C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 22:16:26
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 22:17:00] "GET / HTTP/1.1" 200 18097
+[08/Nov/2023 22:17:07] "GET /signup_user/ HTTP/1.1" 200 7321
+[08/Nov/2023 22:17:15] "GET /admin/ HTTP/1.1" 302 0
+[08/Nov/2023 22:17:15] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+Not Found: /favicon.ico
+[08/Nov/2023 22:17:16] "GET /favicon.ico HTTP/1.1" 404 4358
+[08/Nov/2023 22:17:27] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Nov/2023 22:17:27] "GET /admin/ HTTP/1.1" 200 5807
+[08/Nov/2023 22:17:31] "GET /admin/store/account/ HTTP/1.1" 200 9968
+[08/Nov/2023 22:17:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[08/Nov/2023 22:17:33] "GET /admin/store/account/add/ HTTP/1.1" 200 10040
+[08/Nov/2023 22:17:34] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[08/Nov/2023 22:17:49] "POST /admin/store/account/add/ HTTP/1.1" 302 0
+[08/Nov/2023 22:17:49] "GET /admin/store/account/2/change/ HTTP/1.1" 200 19392
+[08/Nov/2023 22:17:49] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[08/Nov/2023 22:18:04] "POST /admin/store/account/2/change/ HTTP/1.1" 302 0
+[08/Nov/2023 22:18:04] "GET /admin/store/account/ HTTP/1.1" 200 10719
+[08/Nov/2023 22:18:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[08/Nov/2023 22:18:13] "GET /login_user/ HTTP/1.1" 200 6921
+[08/Nov/2023 22:18:23] "POST /login_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:18:23] "GET / HTTP/1.1" 200 18088
+[08/Nov/2023 22:18:28] "GET /logout_user/ HTTP/1.1" 200 6890
+[08/Nov/2023 22:18:30] "POST /logout_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:18:30] "GET / HTTP/1.1" 200 18097
+[08/Nov/2023 22:18:33] "GET /login_user/ HTTP/1.1" 200 6922
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 22:19:52
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 22:19:57] "GET /signup_user/ HTTP/1.1" 200 7321
+[08/Nov/2023 22:20:22] "POST /signup_user/ HTTP/1.1" 200 7429
+[08/Nov/2023 22:20:47] "POST /signup_user/ HTTP/1.1" 200 7429
+[08/Nov/2023 22:20:54] "GET /admin/store/account/ HTTP/1.1" 302 0     
+[08/Nov/2023 22:20:54] "GET /admin/login/?next=/admin/store/account/ HTTP/1.1" 200 4408
+[08/Nov/2023 22:21:03] "POST /admin/login/?next=/admin/store/account/ HTTP/1.1" 302 0
+[08/Nov/2023 22:21:03] "GET /admin/store/account/ HTTP/1.1" 200 10520 
+[08/Nov/2023 22:21:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[08/Nov/2023 22:21:09] "GET /admin/store/account/ HTTP/1.1" 200 10520 
+[08/Nov/2023 22:21:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 22:22:25
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 22:22:31] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:31] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:33] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:33] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:35] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:35] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:37] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:37] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:39] "GET /login_user/ HTTP/1.1" 200 6921
+[08/Nov/2023 22:22:40] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:40] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:41] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:41] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:41] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:41] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:42] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:42] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:42] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:42] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:42] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:42] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:43] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:43] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:22:43] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:22:43] "GET / HTTP/1.1" 200 18096
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 22:23:02
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 22:23:03] "GET /login_user/ HTTP/1.1" 200 6921
+[08/Nov/2023 22:23:04] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:04] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:23:04] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:04] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:23:05] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:05] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:23:05] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:05] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:23:06] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:06] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:23:06] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:06] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:23:07] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:07] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:23:07] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:07] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:23:07] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:07] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:23:13] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:13] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:23:33] "GET /password_reset/ HTTP/1.1" 200 3358
+[08/Nov/2023 22:23:35] "GET /logout_user/ HTTP/1.1" 200 6898
+[08/Nov/2023 22:23:36] "POST /logout_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:23:36] "GET / HTTP/1.1" 200 18097
+Internal Server Error: /signup_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 88, in signup_user
+    context['registration_form'] =  form
+                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+[08/Nov/2023 22:23:39] "GET /signup_user/ HTTP/1.1" 500 69893
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 22:23:50
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 22:23:51] "GET /signup_user/ HTTP/1.1" 200 7321
+[08/Nov/2023 22:24:12] "POST /signup_user/ HTTP/1.1" 200 7429
+[08/Nov/2023 22:24:17] "GET /admin/store/account/ HTTP/1.1" 302 0
+[08/Nov/2023 22:24:18] "GET /admin/login/?next=/admin/store/account/ HTTP/1.1" 200 4333
+[08/Nov/2023 22:24:25] "POST /admin/login/?next=/admin/store/account/ HTTP/1.1" 302 0
+[08/Nov/2023 22:24:25] "GET /admin/store/account/ HTTP/1.1" 200 10520 
+[08/Nov/2023 22:24:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[08/Nov/2023 22:24:29] "GET /admin/store/account/ HTTP/1.1" 200 10520 
+[08/Nov/2023 22:24:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 22:25:27
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 22:25:30] "GET /password_reset/ HTTP/1.1" 200 3358
+[08/Nov/2023 22:25:32] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:25:32] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:25:34] "GET /logout_user/ HTTP/1.1" 200 6898
+[08/Nov/2023 22:25:35] "POST /logout_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:25:35] "GET / HTTP/1.1" 200 18097
+[08/Nov/2023 22:25:37] "GET /signup_user/ HTTP/1.1" 200 7321
+you are inside the post request
+[08/Nov/2023 22:25:51] "POST /signup_user/ HTTP/1.1" 200 7429
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 22:27:22
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+you are inside the post request
+[08/Nov/2023 22:27:38] "POST /signup_user/ HTTP/1.1" 200 7429
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 22:28:59
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+you are inside the post request
+False
+[08/Nov/2023 22:29:13] "POST /signup_user/ HTTP/1.1" 200 7429
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 22:36:10
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 22:40:21] "GET /signup_user/ HTTP/1.1" 200 7321
+you are inside the post request
+True
+you are inside the the valid form
+[08/Nov/2023 22:40:41] "POST /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:40:41] "GET /login_user/ HTTP/1.1" 200 6922
+[08/Nov/2023 22:41:41] "POST /login_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:41:41] "GET / HTTP/1.1" 200 18090
+[08/Nov/2023 22:43:26] "GET / HTTP/1.1" 200 18090
+[08/Nov/2023 22:43:30] "GET /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:43:30] "GET / HTTP/1.1" 200 18090
+[08/Nov/2023 22:43:31] "GET /logout_user/ HTTP/1.1" 200 6892
+[08/Nov/2023 22:43:33] "GET /password_reset/ HTTP/1.1" 200 3561
+[08/Nov/2023 22:43:49] "GET /admin/store/account/ HTTP/1.1" 302 0
+[08/Nov/2023 22:43:49] "GET /admin/login/?next=/admin/store/account/ HTTP/1.1" 200 3736
+[08/Nov/2023 22:43:57] "POST /admin/login/?next=/admin/store/account/ HTTP/1.1" 302 0
+[08/Nov/2023 22:43:58] "GET /admin/store/account/ HTTP/1.1" 200 11071
+[08/Nov/2023 22:43:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[08/Nov/2023 22:44:06] "GET /admin/login/?next=/admin/store/account/ HTTP/1.1" 302 0
+[08/Nov/2023 22:44:06] "GET /admin/ HTTP/1.1" 200 6409
+[08/Nov/2023 22:44:08] "GET /admin/store/account/ HTTP/1.1" 200 11071
+[08/Nov/2023 22:44:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[08/Nov/2023 22:44:19] "GET / HTTP/1.1" 200 18096
+[08/Nov/2023 22:44:21] "GET /logout_user/ HTTP/1.1" 200 6898
+[08/Nov/2023 22:44:23] "POST /logout_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:44:23] "GET / HTTP/1.1" 200 18097
+[08/Nov/2023 22:44:25] "GET /signup_user/ HTTP/1.1" 200 7321
+you are inside the post request
+True
+you are inside the the valid form
+[08/Nov/2023 22:44:48] "POST /signup_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:44:48] "GET /login_user/ HTTP/1.1" 200 6929
+Internal Server Error: /login_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__ 
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:   
+
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 102, in login_user
+    username = request.POST['username']
+               ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__ 
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'username'        
+[08/Nov/2023 22:45:15] "POST /login_user/ HTTP/1.1" 500 78770
+Internal Server Error: /login_user/
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__ 
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'username'
+
+During handling of the above exception, another exception occurred:   
+
+Traceback (most recent call last):
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner    
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py", line 102, in login_user
+    username = request.POST['username']
+               ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\my_env\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__ 
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'username'        
+[08/Nov/2023 22:45:21] "POST /login_user/ HTTP/1.1" 500 78767
+C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo\store\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 08, 2023 - 22:46:05
+Django version 4.2.6, using settings 'ecom_demo.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[08/Nov/2023 22:46:05] "GET /login_user/ HTTP/1.1" 200 6929
+[08/Nov/2023 22:46:18] "POST /login_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:46:18] "GET / HTTP/1.1" 200 18090
+[08/Nov/2023 22:46:24] "GET /logout_user/ HTTP/1.1" 200 6892
+[08/Nov/2023 22:46:25] "POST /logout_user/ HTTP/1.1" 302 0
+[08/Nov/2023 22:46:25] "GET / HTTP/1.1" 200 18097
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git commit -m "register and login and logout password reset is working fine"
+[main 26943d4] register and login and logout password reset is working fine
+ 5 files changed, 19 insertions(+), 12 deletions(-)
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> git push origin main
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 2.91 KiB | 1.46 MiB/s, done.
+Total 12 (delta 11), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (11/11), completed with 11 local objects.
+To https://github.com/Harijohnson/Ecom_Demo.git
+   6413fb5..26943d4  main -> main
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo\ecom_demo> cd ..
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo> git add .
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo> git status -a
+error: unknown switch `a'
+usage: git status [<options>] [--] [<pathspec>...]
+
+    -v, --verbose         be verbose
+    -s, --short           show status concisely
+    -b, --branch          show branch information
+    --show-stash          show stash information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain[=<version>]
+                          machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --ignored[=<mode>]    show ignored files, optional modes: traditional, matching, no. (Default: traditional)
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules, optional when: all, dirty, untracked. (Default: all)
+    --column[=<style>]    list untracked files in columns
+    --no-renames          do not detect renames
+    -M, --find-renames[=<n>]
+                          detect renames, optionally set similarity index
+
+(my_env) PS C:\Users\HARI_JOHNSON\Desktop\Ecom_demo\Ecom_Demo> git status   
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   logs_of_terminal.txt
 
 
 
