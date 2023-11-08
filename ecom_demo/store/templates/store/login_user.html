@@ -18,14 +18,14 @@
                     {{messages}}
                     <div class="input-field">
                         <i class='bx bx-envelope' ></i>
-                        <input type="text"placeholder='UserName'  id="username" name="username">
+                        <input type="email"placeholder='email'  id="email" name="email">
                     </div>
 
                     <div class="input-field">
                         <i class='bx bx-lock-alt' ></i>
                         <input type="password"placeholder='Password'  id="password" name="password">
                     </div>
-                    <p class="forgotPass"> <a href="#">Forgot Password </a></p>
+                    <p class="forgotPass"> <a href="{% url 'password_reset' %}">Forgot Password </a></p>
                 </div>
                 <div class="btn-field-login" >
                      

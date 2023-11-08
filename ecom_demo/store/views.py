@@ -42,15 +42,22 @@ def signup_user(request,*args,**kwargs):
     user = request.user
     if user.is_authenticated:
         return redirect('store')
+    
+
     context={}
+
+
     if request.method == 'POST':
         form  = RegistrationForm(request.POST)
+        print('you are inside the post request')
+        print(form.is_valid())
         if form.is_valid():
-            user= form.save(commit=False)
-            user.is_active =False   # now it is true for development server 
-            user.save()
+            # user= form.save(commit=False)
+            # user.is_active =False   # now it is true for development server 
+            print('you are inside the the valid form')
+            form.save()
 
-            email = form.cleaned_data.get('email').lower()
+            '''email = form.cleaned_data.get('email').lower()
             username = form.cleaned_data.get('username')
             #welcome email
             subject = "Welcome to django app"
@@ -80,23 +87,23 @@ def signup_user(request,*args,**kwargs):
                 [email],
             )
             email_send.fails=True
-            email_send.send()
-            return redirect("store")
+            email_send.send()'''
+            return redirect("login_user")
 
         else:
             form = RegistrationForm()
-        context['registration_form'] =  form
+            context['registration_form'] =  form
     return render(request,'store/signup_user.html',context=context) 
 
 
 
 def login_user(request):
     if request.method == 'POST':
-        username = request.POST['username']
+        email = request.POST['email']
         password = request.POST['password']
         # print(username)
         # print(password)
-        user= authenticate(request,username=username,password=password)
+        user= authenticate(request,email=email,password=password)
         # print(user)
         # print('look above')
         if user is not None:
