@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
-from store.models import Account
+from store.models import *
 
 class AccountAdmin(UserAdmin):
     list_display = ('email','username','date_joined','last_login','is_admin',"is_staff",)  # table headings
@@ -13,5 +13,8 @@ class AccountAdmin(UserAdmin):
 
 
 admin.site.register(Account,AccountAdmin)
-
+admin.site.register(Product)
+admin.site.register(Order)
+admin.site.register(OrderItem)
+admin.site.register(ShippingAddress)
 

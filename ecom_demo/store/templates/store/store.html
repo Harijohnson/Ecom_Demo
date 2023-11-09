@@ -202,9 +202,44 @@
                     </div>    
                 </div>
 
+
+
+
+                <!--  get the image from  backend-->
+                <div class="row">
+                    {% for product in products %}
+                    <img class="thumbnail" src="{{ product.imageURL }}" alt="item">
+                    <!-- <img class="thumbnail" src="{{product.imageURL}}" alt="item">
+                    <img class="thumbnail" src="{{product.imageURL}}" alt="item">
+                    <img class="thumbnail" src="{{product.imageURL}}" alt="item">
+                    <img class="thumbnail" src="{{product.imageURL}}" alt="item">
+                    <img class="thumbnail" src="{{product.imageURL}}" alt="item"> -->
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="rating">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4> {{product.name}} </h4>
+                        <p>${{product.price|floatformat:2}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+
             </div>
 
         </section>
+
+
+
 
         <!-- client review section -->
 
@@ -219,8 +254,10 @@
                 <h2>Harikrishnan</h2>
                 <p>CEO of Termic</p>
             </div>
-        </section>
 
+
+
+        </section>
 
         <!-- update-news-section -->
 
